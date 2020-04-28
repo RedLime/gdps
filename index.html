@@ -31,9 +31,11 @@
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">소개</span></a></li>
 								<li><a href="#download" id="portfolio-link"><span class="icon solid fa-th">다운로드 및 정보</span></a></li>
 								<li><a href="#modlauncher" id="modlauncher-link"><span class="icon solid fa-toolbox">ModLauncher</span></a></li>
+								<li><a href="#allowbypass" id="allowbypass-link"><span class="icon solid fa-tools">Bypass / 핵</span></a></li>
 								<li><a href="#role" id="role-link"><span class="icon solid fa-user">특수 역할</span></a></li>
 								<li><a href="#rate" id="about-link"><span class="icon solid fa-star">레이팅 기준</span></a></li>
-								<!--<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">관련 링크</span></a></li>-->
+								<li><a href="#question" id="question-link"><span class="icon solid fa-question-circle">자주 묻는 질문</span></a></li>
+								<li><a href="#links" id="links-link"><span class="icon solid fa-link">관련 링크</span></a></li>
 							</ul>
 						</nav>
 
@@ -72,6 +74,10 @@
 
 						<footer>
 							<a href="https://discord.gg/QQvDmK9" class="button">공식 디스코드 서버</a>
+							<center><ul style="width: 70%;">
+								<li>이곳에서 RedLime GDPS의 궁금한 점, 문의사항, 버그 등을 얘기하실 수 있습니다.</li>
+								<li>디스코드 이용 약관에 따라서 만 13세 미만 유저분들은 디스코드 서버에 입장 하실 수 없습니다.</li>
+							</ul></center>
 							<br><br><br>
 							<a href="http://redlimerl.kro.kr/files/RedLimeGDPS_v2.1.zip" class="button" download>윈도우(PC) 버전 다운로드 (v2.1)</a>
 							<center><ul style="width: 70%;">
@@ -87,39 +93,55 @@
 				</section>
 				
 				<!-- modlauncher -->
-				<section id="modlauncher" class="three">
-					<div class="container">
+					<section id="modlauncher" class="three.">
+						<div class="container">
 
-						<header>
-							<h2>RedLime GDPS PC 버전 - 전용 핵/Bypass 툴<br>"ModLauncher" 사용 방법</h2>
-						</header>
+							<header>
+								<h2>RedLime GDPS PC 버전 - 전용 핵/Bypass 툴<br>"ModLauncher" 사용 방법</h2>
+							</header>
 
-						<ol style="text-align: left !important; font-weight: 800;">
-							<li>ModLauncher의 위치(경로)는 절대로 조정해서는 안됩니다. RedLimeGDPS.exe와 같은 위치여야 합니다.</li>
-							<li>ModLauncher를 실행 했는데 아무일도 일어나지 않거나, 오류가 나거나,<br>ModLauncher의 아이콘이 <img class="text-img" src="./images/java_icon.png">가 아니라면 Java SE Runtime을 설치하셔야 합니다.</li>
-							<ul style="font-size: 0.9em; font-weight: 400;">
-								<li>아이콘이 <img class="text-img" src="./images/java_icon.png">가 아닙니다.</li>
-								<ol style="font-size: 0.9em; font-weight: 100;">
-									<li>ModLauncher 파일을 우클릭 → 연결 프로그램 (→ 다른 앱 선택) → OpenJDK Platform Binary 선택<br><img src="./images/modlauncher_img1.png" width="50%"></li>
-									<li>ModLauncher를 실행합니다.</li>
-								</ol>
-								<li>다른 앱 선택에서 OpenJDK Platform Binary가 뜨지 않아요</li>
-								<ol style="font-size: 0.9em; font-weight: 100;">
-									<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank">Java SE 다운로드 페이지</a>에서 최신버전 "Oracle JDK"를 다운로드 받아주세요</li>
-									<li>설치가 완료되었다면, ModLauncher의 아이콘이 <img class="text-img" src="./images/java_icon.png">으로 제대로 표기가 되어 있는지 확인 후, 실행하세요</li>
-									<li>ModLauncher의 아이콘이 다르다면 위의 "아이콘이 <img class="text-img" src="./images/java_icon.png">가 아닙니다." 항목을 참고하세요</li>
-								</ol>
+							<ol style="text-align: left !important; font-weight: 800;">
+								<li>ModLauncher의 위치(경로)는 절대로 조정해서는 안됩니다. RedLimeGDPS.exe와 같은 위치여야 합니다.</li>
+								<li>ModLauncher를 실행 했는데 아무일도 일어나지 않거나, 오류가 나거나,<br>ModLauncher의 아이콘이 <img class="text-img" src="./images/java_icon.png">가 아니라면 Java SE Runtime을 설치하셔야 합니다.</li>
+								<ul style="font-size: 0.9em; font-weight: 400;">
+									<li>아이콘이 <img class="text-img" src="./images/java_icon.png">가 아닙니다.</li>
+									<ol style="font-size: 0.9em; font-weight: 100;">
+										<li>ModLauncher 파일을 우클릭 → 연결 프로그램 (→ 다른 앱 선택) → OpenJDK Platform Binary 선택<br><img src="./images/modlauncher_img1.png" width="50%"></li>
+										<li>ModLauncher를 실행합니다.</li>
+									</ol>
+									<li>다른 앱 선택에서 OpenJDK Platform Binary가 뜨지 않아요</li>
+									<ol style="font-size: 0.9em; font-weight: 100;">
+										<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank">Java SE 다운로드 페이지</a>에서 최신버전 "Oracle JDK"를 다운로드 받아주세요</li>
+										<li>설치가 완료되었다면, ModLauncher의 아이콘이 <img class="text-img" src="./images/java_icon.png">으로 제대로 표기가 되어 있는지 확인 후, 실행하세요</li>
+										<li>ModLauncher의 아이콘이 다르다면 위의 "아이콘이 <img class="text-img" src="./images/java_icon.png">가 아닙니다." 항목을 참고하세요</li>
+									</ol>
+								</ul>
+								<li>아래 화면과 같은 창이 뜬다면, 정상 실행입니다.<br><img src="./images/modlauncher_img2.png" width="50%"></li>
+								<li>"모드" 탭을 눌러 활성화할 Bypass를 고르고 "GDPS 실행"을 누르세요.</li>
+								<li>enjoy!</li>
+							</ol>
+
+						</div>
+					</section>
+
+				<!-- allowbypass -->
+					<section id="allowbypass" class="two">
+						<div class="container">
+
+							<header>
+								<h2>사용 가능한 Bypass, 핵</h2>
+							</header>
+
+							<ul style="text-align: left !important; font-weight: 600;">
+								<li><a href="#modlauncher">ModLauncher</a> 내장 Bypass, 핵</li>
+								<li><a href="https://www.youtube.com/watch?v=1YsnXaCBToU" target="_blank">FPS Bypass</a></li>
 							</ul>
-							<li>아래 화면과 같은 창이 뜬다면, 정상 실행입니다.<br><img src="./images/modlauncher_img2.png" width="50%"></li>
-							<li>"모드" 탭을 눌러 활성화할 Bypass를 고르고 "GDPS 실행"을 누르세요.</li>
-							<li>enjoy!</li>
-						</ol>
 
-					</div>
-				</section>
+						</div>
+					</section>
 
 				<!-- About Me -->
-					<section id="role" class="two">
+					<section id="role" class="three.">
 						<div class="container">
 
 							<header>
@@ -129,37 +151,41 @@
 							<p>RedLime GDPS는 GD 본서버와 같이 엘더모더, 모더 등 다양한 역할이 존재합니다.</p>
 
 							<ul style="text-align: left !important;">
-								<li><strong>Elder Moder(엘더 모더)</strong></li>
+								<li style="font-weight: 600;">Elder Moder(엘더 모더)</li>
 								<ul>
 									<li>레벨 레이팅 가능</li>
 									<li>Power Rate 가능</li>
 									<li>레벨 관리 권한</li>
 									<li>조건 : Moder(모더)로써의 장기간 활동 및 심사 필요</li>
 								</ul>
-								<li><strong>Moder(모더)</strong></li>
+								<li style="font-weight: 600;">Moder(모더)</li>
 								<ul>
 									<li>레벨 Sent 가능</li>
 									<li>Power Rate 가능</li>
 									<li>조건 : 활발한 GDPS 크리에이팅 활동 / GDPS 활동 및 심사 필요</li>
 								</ul>
-								<li><strong>Helper(헬퍼)</strong></li>
+								<li style="font-weight: 600;">Helper(헬퍼)</li>
 								<ul>
 									<li>Power Rate 가능</li>
 									<li>조건 : 신청 및 심사</li>
 								</ul>
-								<li><strong>Youtuber(YT)</strong></li>
+								<li style="font-weight: 600;">Youtuber(YT)</li>
 								<ul>
 									<li>코멘트창 닉네임에 "(YT)" 부여</li>
 									<li>조건 : 구독자 1000명 이상의 채널에서 RedLime GDPS 관련 영상 업로드 및 홍보 후 신청</li>
 								</ul>
 							</ul>
 
-							<p style="text-align: left !important; font-size: 0.8em;">레벨 Sent란?<br>엘더모더들이 볼 수 있는 "레이팅 리스트"에 레벨을 등록시키는 기능입니다. 엘더모더들은 이 리스트를 토대로 레이팅을 진행합니다.</p>
-							<p style="text-align: left !important; font-size: 0.8em;">Power Rate란?<br>데몬 난이도 레이팅, 별이 붙지 않은 레벨 난이도 레이팅 투표를 할때, 한번의 투표로 3명 투표의 효과를 내는 기능입니다.</p>
+							<p style="text-align: left !important; font-size: 0.8em;">심사는 공식 디스코드 서버에서 진행합니다</p>
+							<p style="text-align: left !important; font-size: 0.8em;"><span style="font-weight: 600;">레벨 Sent란?</span><br>엘더모더들이 볼 수 있는 "레이팅 리스트"에 레벨을 등록시키는 기능입니다. 엘더모더들은 이 리스트를 토대로 레이팅을 진행합니다.</p>
+							<p style="text-align: left !important; font-size: 0.8em;"><span style="font-weight: 600;">Power Rate란?</span><br>데몬 난이도 레이팅, 별이 붙지 않은 레벨 난이도 레이팅 투표를 할때, 한번의 투표로 3명 투표의 효과를 내는 기능입니다.</p>
 
 						</div>
 					</section>
-					<section id="rate" class="three.">
+
+					
+				<!-- About Me -->
+					<section id="rate" class="two">
 						<div class="container">
 
 							<header>
@@ -169,32 +195,78 @@
 							<a class="image featured"><img style="width: 50%" src="images/pic02.jpg" alt=""/></a>
 
 							<ul style="text-align: left !important;">
-								<li><strong>레이팅 최소 조건</strong></li>
+								<li style="font-weight: 600;">레이팅 최소 조건</li>
 								<ul>
 									<li>길이 31초(Medium) 이상</li>
 									<li>비밀길(Secret way) 미존재</li>
 								</ul>
-								<li><strong>No-Featured (1 CP)</strong></li>
+								<li style="font-weight: 600;">No-Featured (1 CP)</li>
 								<ul>
 									<li>Medium 길이의 평범한 퀄리티를 지닌 레벨</li>
 									<li>Long 길이의 레벨, 위 조건보다는 약간 떨어지는 퀄리티</li>
-									<li>기존 GD 서버에서 리업로드한 레벨 (계정당 단 1개의 레벨)</li>
+									<li>기존 GD 서버에서 리업로드한 레벨 (계정당 단 1개의 레벨, 본인 레벨이어야 함)</li>
 									<li>Long 이상의 잘 구성된 레이아웃, 이펙 레이아웃, 1.0 스타일 레벨</li>
 									<li>크리에이팅 뉴비, 잘 만든 맵이나 길이가 짧은 맵이 주로 구성</li>
 								</ul>
-								<li><strong>Featured (2 CP)</strong></li>
+								<li style="font-weight: 600;">Featured (2 CP)</li>
 								<ul>
 									<li>Medium 길이의 준수하거나 뛰어난 퀄리티를 지닌 레벨</li>
 									<li>Long 길이의 평범한 퀄리티를 지닌 레벨</li>
 									<li>Epic의 조건과 No-Featured의 조건 사이에 위치한 애매한(?) 레벨</li>
 									<li>상당히 잘 만든 맵이며 길이가 Long이지만, Medium의 뛰어난 맵이 주로 구성</li>
 								</ul>
-								<li><strong>Epic (4 CP)</strong></li>
+								<li style="font-weight: 600;">Epic (4 CP)</li>
 								<ul>
 									<li>Long 이상의 GD 본서버에서도 레이팅이 가능할 정도의 레벨</li>
 									<li>XL~Travel(XXL) 이상의 준수한 퀄리티를 지닌 레벨</li>
 									<li>조건이 조건인만큼 희귀하고 얻기 힘든 레이팅입니다.</li>
 								</ul>
+							</ul>
+
+						</div>
+					</section>
+					
+				<!-- About Me -->
+					<section id="question" class="three.">
+						<div class="container">
+
+							<header>
+								<h2>자주 묻는 질문</h2>
+								<span style="font-size: 0.5em;">last update : 2020.04.28</span>
+							</header>
+
+							<ul style="text-align: left !important;">
+								<li style="font-weight: 600;">Q. GDPS가 뭔가요?</li>
+								<ul><li style="font-weight: 200;">A. Geometry Dash Private Server의 약자로, 간단히 말해 GD 사설 서버입니다. 서버(데이터)가 아예 분리되어 따로 존재합니다.</li></ul>
+								<li style="font-weight: 600;">Q. 모바일에서 설치하려면 기존 지메 지워야 하나요?</li>
+								<ul><li style="font-weight: 200;">A. 아니요. RedLime GDPS는 기존 지메와 앱과 데이터가 분리되어 걱정없이 다운로드 받으실 수 있습니다</li></ul>
+								<li style="font-weight: 600;">Q. 계정 로그인이 안되요.</li>
+								<ul><li style="font-weight: 200;">A. 계정 가입 하셨나요? 이 서버는 본 GD 서버 계정과 연동되지 않아서, 새로 만드셔야합니다.</li></ul>
+								<li style="font-weight: 600;">Q. 계정 가입을 했는데 이메일 인증이 필요한가요?</li>
+								<ul><li style="font-weight: 200;">A. 별도의 인증이 필요 없습니다. 바로 로그인 하시면 됩니다.</li></ul>
+								<li style="font-weight: 600;">Q. PC버전에서 아무런 소리가 안들려요</li>
+								<ul><li style="font-weight: 200;">A. GDPS 폴더의 경로중에 한글이 포함되어 있다면 문제가 발생합니다. C드라이브로 폴더를 옮겨보세요.</li></ul>
+								<li style="font-weight: 600;">Q. 위 사항을 해결했지만, PC버전에서 커스텀 노래가 안들려요</li>
+								<ul><li style="font-weight: 200;">A. 아래 옵션을 켜신후 재부팅 후 노래를 다시 다운받아보세요.<br><img src="https://media.discordapp.net/attachments/702473890047197185/702688364494585967/unknown.png" width="70%"></li></ul>
+								<li style="font-weight: 600;">Q. 제 본섭 레벨을 가져오려면 어떻게 해야 하나요?</li>
+								<ul><li style="font-weight: 200;">A. PC버전 한정으로만 가능합니다. <a href="https://youtu.be/xHAdLBGDTyw" target="_blank">(영상링크)</a></li></ul>
+							</ul>
+
+						</div>
+					</section>
+
+				<!-- links -->
+					<section id="links" class="two">
+						<div class="container">
+
+							<header>
+								<h2>관련 링크</h2>
+							</header>
+
+							<ul style="text-align: left !important; font-weight: 600;">
+								<li><a href="https://github.com/Cvolton/GMDprivateServer" target="_blank">Geometry Dash Private Server Sample</a></li>
+								<li><a href="https://www.youtube.com/channel/UCxZDE9A8qewsM9BWNWj9nVg" target="_blank">RedLime Youtube</a></li>
+								<li><a href="https://github.com/SMJSGaming/GD-Open-Launcher" target="_blank">GD Open Launcher (ModLauncher Sample)</a></li>
 							</ul>
 
 						</div>
