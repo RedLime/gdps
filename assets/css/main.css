@@ -2631,3 +2631,9 @@ input, select, textarea {
 				}
 
 	}
+
+
+.text-img {
+	width: 1em;
+	vertical-align: text-top;
+}
