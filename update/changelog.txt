@@ -11,7 +11,9 @@
 <p>- 스케일 핵 옵션 추가</p>
 <p>- Anti Editor Kick 옵션 추가</p>
 <p>- Practice Song Bypass 옵션 추가</p>
+
 <br>
+
 <h2>Original by</h2>
 
 <p>SMJS</p>
