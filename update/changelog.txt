@@ -7,9 +7,13 @@
 <h2>Changelogs</h2>
 
 <p>- 오브젝트 무제한 옵션 추가</p>
+
 <p>- 커스텀 옵젝 수 무제한 옵션 추가</p>
+
 <p>- 스케일 핵 옵션 추가</p>
+
 <p>- Anti Editor Kick 옵션 추가</p>
+
 <p>- Practice Song Bypass 옵션 추가</p>
 
 <br>
