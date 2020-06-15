@@ -41,6 +41,11 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=415s",
+                    percent: 100
+                },
             ],
             name: "Sandstorm",
             author: "YoungUng2",
@@ -61,6 +66,30 @@ const d = {
         {
             vids: [
             ],
+            name: "black",
+            author: "Esencia [TheRealMap]",
+            mapInfo: {
+                simpleExp: "my last color series level! next series level named \"valley\" enjoy! :)",
+                uploadDate: "2020.05.02",
+                verifingAtt: "",
+                id: "1416 / 101010",
+                long: "1분 2초",
+                highest: "4",
+                more: "",
+            },
+			percentToQualify: 50,
+            verificationVid: "",//베파 영상 없음
+            key: 3
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=XD7oyiXu-xM",
+                    percent: 100
+                },
+            ],
             name: "Duplication",
             author: "Blancookie",
             mapInfo: {
@@ -74,25 +103,6 @@ const d = {
             },
 			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=v9zI0kJNOTY",
-            key: 3
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-            ],
-            name: "black",
-            author: "Esencia [TheRealMap]",
-            mapInfo: {
-                simpleExp: "my last color series level! next series level named \"valley\" enjoy! :)",
-                uploadDate: "2020.05.02",
-                verifingAtt: "",
-                id: "1416 / 101010",
-                long: "1분 2초",
-                highest: "5",
-                more: "",
-            },
-			percentToQualify: 50,
-            verificationVid: "",//베파 영상 없음
             key: 4
         },
         /*=================================================================================*/
@@ -117,6 +127,11 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=342s",
+                    percent: 100
+                },
             ],
             name: "sunset",
             author: "YoungUng2",
@@ -155,6 +170,11 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=118s",
+                    percent: 100
+                },
             ],
             name: "ZwE1",
             author: "estachi",
@@ -174,6 +194,12 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "Usung",
+                    link: "https://www.youtube.com/watch?v=jpPptlVEyjE",
+                    percent: 59,
+                    hz: "Mobile"
+                },
             ],
             name: "wrong",
             author: "ari1479",
@@ -193,6 +219,16 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=190s",
+                    percent: 100
+                },
+                {
+                    user: "bongus",
+                    link: "https://www.youtube.com/watch?v=2BMgud7RsI4",
+                    percent: 100
+                },
             ],
             name: "Further",
             author: "miini03",
@@ -212,6 +248,11 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "bongus",
+                    link: "https://www.youtube.com/watch?v=6Ubv9BMCg7Q",
+                    percent: 100
+                },
             ],
             name: "After On Track",
             author: "Lebi",
