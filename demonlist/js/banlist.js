@@ -1,0 +1,2 @@
+var ban_users = [
+];
