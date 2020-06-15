@@ -195,6 +195,59 @@ const d = {
         {
             vids: [
                 {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=190s",
+                    percent: 100
+                },
+                {
+                    user: "bongus",
+                    link: "https://www.youtube.com/watch?v=2BMgud7RsI4",
+                    percent: 100
+                },
+            ],
+            name: "Further",
+            author: "miini03",
+            mapInfo: {
+                simpleExp: "Far Flew Faster FURTHER",
+                uploadDate: "2020.04.26",
+                verifingAtt: "",
+                id: "696 / Free Copy",
+                long: "1분 04초",
+                highest: "10",
+                more: "",
+            },
+			percentToQualify: 65,
+            verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
+            key: 9
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "bongus",
+                    link: "https://www.youtube.com/watch?v=6Ubv9BMCg7Q",
+                    percent: 100
+                },
+            ],
+            name: "After On Track",
+            author: "Lebi",
+            mapInfo: {
+                simpleExp: "Back On Track 'After'",
+                uploadDate: "2020.05.13",
+                verifingAtt: "",
+                id: "2391 / Copy 불가",
+                long: "1분 29초",
+                highest: "11",
+                more: "",
+            },
+			percentToQualify: 56,
+            verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
+            key: 10
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
                     user: "Usung",
                     link: "https://www.youtube.com/watch?v=jpPptlVEyjE",
                     percent: 59,
@@ -214,59 +267,6 @@ const d = {
             },
 			percentToQualify: 48,
             verificationVid: "https://www.youtube.com/watch?v=49w1IIgD8Z8",
-            key: 9
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-                {
-                    user: "ddddr",
-                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=190s",
-                    percent: 100
-                },
-                {
-                    user: "bongus",
-                    link: "https://www.youtube.com/watch?v=2BMgud7RsI4",
-                    percent: 100
-                },
-            ],
-            name: "Further",
-            author: "miini03",
-            mapInfo: {
-                simpleExp: "Far Flew Faster FURTHER",
-                uploadDate: "2020.04.26",
-                verifingAtt: "",
-                id: "696 / Free Copy",
-                long: "1분 04초",
-                highest: "11",
-                more: "",
-            },
-			percentToQualify: 65,
-            verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
-            key: 10
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-                {
-                    user: "bongus",
-                    link: "https://www.youtube.com/watch?v=6Ubv9BMCg7Q",
-                    percent: 100
-                },
-            ],
-            name: "After On Track",
-            author: "Lebi",
-            mapInfo: {
-                simpleExp: "Back On Track 'After'",
-                uploadDate: "2020.05.13",
-                verifingAtt: "",
-                id: "2391 / Copy 불가",
-                long: "1분 29초",
-                highest: "12",
-                more: "",
-            },
-			percentToQualify: 56,
-            verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
             key: 11
         },
         /*=================================================================================*/
