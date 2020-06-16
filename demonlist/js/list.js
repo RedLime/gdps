@@ -171,6 +171,49 @@ const d = {
         {
             vids: [
                 {
+                    user: "Lebi",
+                    link: "https://www.youtube.com/watch?v=19EBVeDo9KM",
+                    percent: 100
+                },
+            ],
+            name: "inner demons",
+            author: "cubic",
+            mapInfo: {
+                simpleExp: "My first XL level, Good luck! / 18k objects",
+                uploadDate: "2020.05.20",
+                verifingAtt: "",
+                id: "2940 / 006843",
+                long: "2분 22초",
+                highest: "9",
+                more: "",
+            },
+			percentToQualify: 60,
+            verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
+            key: 8
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
+            name: "AfterGeist",
+            author: "Lebi",
+            mapInfo: {
+                simpleExp: "Polargeist 'After'",
+                uploadDate: "2020.05.20",
+                verifingAtt: "",
+                id: "2924 / Copy 불가",
+                long: "1분 52초",
+                highest: "10",
+                more: "",
+            },
+			percentToQualify: 58,
+            verificationVid: "https://www.youtube.com/watch?v=krTYYwsBDp4",
+            key: 9
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
                     user: "ddddr",
                     link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=118s",
                     percent: 100
@@ -189,7 +232,7 @@ const d = {
             },
 			percentToQualify: 48,
             verificationVid: "",//베파 영상없음
-            key: 8
+            key: 10
         },
         /*=================================================================================*/
         {
@@ -218,7 +261,7 @@ const d = {
             },
 			percentToQualify: 65,
             verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
-            key: 9
+            key: 11
         },
         /*=================================================================================*/
         {
@@ -242,11 +285,16 @@ const d = {
             },
 			percentToQualify: 56,
             verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
-            key: 10
+            key: 12
         },
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "bongus",
+                    link: "https://www.youtube.com/watch?v=yz7EDNnCg7k",
+                    percent: 100,
+                },
                 {
                     user: "Usung",
                     link: "https://www.youtube.com/watch?v=jpPptlVEyjE",
@@ -267,44 +315,6 @@ const d = {
             },
 			percentToQualify: 48,
             verificationVid: "https://www.youtube.com/watch?v=49w1IIgD8Z8",
-            key: 11
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-            ],
-            name: "AfterGeist",
-            author: "Lebi",
-            mapInfo: {
-                simpleExp: "Polargeist 'After'",
-                uploadDate: "2020.05.20",
-                verifingAtt: "",
-                id: "2924 / Copy 불가",
-                long: "1분 52초",
-                highest: "13",
-                more: "",
-            },
-			percentToQualify: 58,
-            verificationVid: "https://www.youtube.com/watch?v=krTYYwsBDp4",
-            key: 12
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-            ],
-            name: "inner demons",
-            author: "cubic",
-            mapInfo: {
-                simpleExp: "My first XL level, Good luck! / 18k objects",
-                uploadDate: "2020.05.20",
-                verifingAtt: "",
-                id: "2940 / 006843",
-                long: "2분 22초",
-                highest: "14",
-                more: "",
-            },
-			percentToQualify: 60,
-            verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
             key: 13
         },
         /*=================================================================================*/
