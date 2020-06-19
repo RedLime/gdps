@@ -218,6 +218,11 @@ const d = {
                     link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=118s",
                     percent: 100
                 },
+                {
+                    user: "Lebi",
+                    link: "https://www.youtube.com/watch?v=aCBndF_pDpk",
+                    percent: 100
+                },
             ],
             name: "ZwE1",
             author: "estachi",
@@ -246,6 +251,23 @@ const d = {
                     user: "bongus",
                     link: "https://www.youtube.com/watch?v=2BMgud7RsI4",
                     percent: 100
+                },
+                {
+                    user: "Cubic[GD]",
+                    link: "https://www.youtube.com/watch?v=9Hco_OYceZM",
+                    percent: 100,
+                    hz: "Mobile"
+                },
+                {
+                    user: "Lebi",
+                    link: "https://www.youtube.com/watch?v=YS1tDBuVe9w",
+                    percent: 100
+                },
+                {
+                    user: "Usung",
+                    link: "https://www.youtube.com/watch?v=J35QqVU4NvI",
+                    percent: 66,
+                    hz: "Mobile"
                 },
             ],
             name: "Further",
@@ -297,8 +319,37 @@ const d = {
                 },
                 {
                     user: "Usung",
-                    link: "https://www.youtube.com/watch?v=jpPptlVEyjE",
-                    percent: 59,
+                    link: "https://www.youtube.com/watch?v=ukmYFUmzKuQ",
+                    percent: 100,
+                    hz: "Mobile"
+                },
+                {
+                    user: "Cubic[GD]",
+                    link: "https://www.youtube.com/watch?v=jvbsoOCibLM",
+                    percent: 100,
+                    hz: "Mobile"
+                },
+                {
+                    user: "Lebi",
+                    link: "https://www.youtube.com/watch?v=PBTmN20K4Rc",
+                    percent: 100,
+                },
+                {
+                    user: "nng12",
+                    link: "https://www.youtube.com/watch?v=_c8X0gnVCOg",
+                    percent: 100,
+                    hz: "240hz Bypass"
+                },
+                {
+                    user: "보리(boriboss)",
+                    link: "https://www.youtube.com/watch?v=OKoaZV28KGc",
+                    percent: 68,
+                    hz: "60hz"
+                },
+                {
+                    user: "BigChungus556",
+                    link: "https://www.youtube.com/watch?v=EdAt8s80Cos",
+                    percent: 75,
                     hz: "Mobile"
                 },
             ],
