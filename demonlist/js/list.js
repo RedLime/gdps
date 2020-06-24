@@ -304,7 +304,7 @@ const d = {
                 verifingAtt: "",
                 id: "5072 / Copy 불가",
                 long: "1분 9초",
-                highest: "10",
+                highest: "12",
                 more: "",
             },
 			percentToQualify: 50,
