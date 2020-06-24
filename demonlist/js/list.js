@@ -259,12 +259,6 @@ const d = {
                     percent: 100
                 },
                 {
-                    user: "보리(boriboss)",
-                    link: "https://www.youtube.com/watch?v=Uzej72hIo4A",
-                    percent: 100,
-                    hz: "60hz"
-                },
-                {
                     user: "Cubic",
                     link: "https://www.youtube.com/watch?v=xlnIyB60v4g",
                     percent: 100,
