@@ -95,7 +95,7 @@ const d = {
                 more: "",
             },
 			percentToQualify: 50,
-            verificationVid: "",//베파 영상 없음
+            verificationVid: "https://www.youtube.com/watch?v=shzzEMUeKL8",//베파 영상 없음
             key: 3
         },
         /*=================================================================================*/
@@ -378,6 +378,16 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "Blancookie",
+                    link: "https://www.youtube.com/watch?v=0ldZz_ApnO0",
+                    percent: 100
+                },
+                {
+                    user: "Lebi",
+                    link: "https://www.youtube.com/watch?v=P_hxWwGr9zk",
+                    percent: 100
+                },
             ],
             name: "EPICLIME REDUX",
             author: "K911unA",
