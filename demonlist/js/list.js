@@ -82,6 +82,12 @@ const d = {
                     link: "https://www.youtube.com/watch?v=kMCIm5e5qYE",
                     percent: 100
                 },
+                {
+                    user: "GDTIME",
+                    link: "https://www.youtube.com/watch?v=LTU-8v5E8Wg",
+                    percent: 100,
+                    hz: "120hz"
+                },
             ],
             name: "black",
             author: "Esencia [TheRealMap]",
@@ -111,6 +117,11 @@ const d = {
                     link: "https://www.twitch.tv/videos/656157088",
                     percent: 100,
                     hz: "120hz"
+                },
+                {
+                    user: "XkIeL",
+                    link: "https://www.youtube.com/watch?v=KTfWC7WzooU",
+                    percent: 100
                 },
             ],
             name: "Duplication",
@@ -159,6 +170,11 @@ const d = {
                 {
                     user: "ddddr",
                     link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=342s",
+                    percent: 100
+                },
+                {
+                    user: "Blancookie",
+                    link: "https://www.youtube.com/watch?v=dZQL5WF5Hv4",
                     percent: 100
                 },
                 {
@@ -387,6 +403,12 @@ const d = {
                     user: "Lebi",
                     link: "https://www.youtube.com/watch?v=P_hxWwGr9zk",
                     percent: 100
+                },
+                {
+                    user: "Cubic",
+                    link: "https://www.youtube.com/watch?v=wUrcQYmR5oU",
+                    percent: 100,
+                    hz: "mobile"
                 },
             ],
             name: "EPICLIME REDUX",
