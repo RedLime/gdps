@@ -3,11 +3,36 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+            ],
+            name: "shadow corridor",
+            author: "XkIeL [ddddr]",
+            mapInfo: {
+                simpleExp: "my first XL Extreme demon! verified by ddddr in 3805 attempts.",
+                uploadDate: "2020.07.20",
+                verifingAtt: "3805",
+                id: "6640 / 040211",
+                long: "2분 10초",
+                highest: "1",
+                more: "",
+            },
+			percentToQualify: 46,
+            verificationVid: "https://www.youtube.com/watch?v=T2_CiOz6Tw0",
+            key: 0
+        },
+        /*=================================================================================*/
+        {
+            vids: [
                 {
                     user: "Youngung2",
                     link: "https://www.youtube.com/watch?v=KoRwBPT4Pms",
                     percent: 100,
                     hz: "144hz"
+                },
+                {
+                    user: "GDTIME",
+                    link: "https://www.twitch.tv/videos/676234637",
+                    percent: 100,
+                    hz: "120hz"
                 },
             ],
             name: "Incurable",
@@ -23,11 +48,17 @@ const d = {
             },
 			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=1nmFQGMf0f4",
-            key: 0
+            key: 1
         },
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=gjNrt5j2CZQ",
+                    percent: 61,
+                    hz: "144hz"
+                },
                 {
                     user: "Lebi",
                     link: "https://www.youtube.com/watch?v=Udgjaj4Iapc",
@@ -48,7 +79,7 @@ const d = {
             },
 			percentToQualify: 44,
             verificationVid: "https://www.youtube.com/watch?v=12jEX10STuA",
-            key: 1
+            key: 2
         },
         /*=================================================================================*/
         {
@@ -57,6 +88,17 @@ const d = {
                     user: "ddddr",
                     link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=415s",
                     percent: 100
+                },
+                {
+                    user: "XkIeL",
+                    link: "https://www.youtube.com/watch?v=z2nHcrHLpYs",
+                    percent: 100
+                },
+                {
+                    user: "StarPrint",
+                    link: "https://www.youtube.com/watch?v=CMAzorCQHHE",
+                    percent: 100,
+                    hz: "240hz Bypass"
                 },
             ],
             name: "Sandstorm",
@@ -72,7 +114,7 @@ const d = {
             },
 			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=puEA266G04A",
-            key: 2
+            key: 3
         },
         /*=================================================================================*/
         {
@@ -102,7 +144,7 @@ const d = {
             },
 			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=shzzEMUeKL8",//베파 영상 없음
-            key: 3
+            key: 4
         },
         /*=================================================================================*/
         {
@@ -137,7 +179,7 @@ const d = {
             },
 			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=v9zI0kJNOTY",
-            key: 4
+            key: 5
         },
         /*=================================================================================*/
         {
@@ -146,6 +188,12 @@ const d = {
                     user: "GDTIME",
                     link: "https://www.youtube.com/watch?v=-qzaHMiBp8M",
                     percent: 100,
+                    hz: "120hz"
+                },
+                {
+                    user: "TrusionGMD",
+                    link: "https://www.youtube.com/watch?v=QjQErWGkc1k",
+                    percent: 61,
                     hz: "120hz"
                 },
             ],
@@ -162,7 +210,7 @@ const d = {
             },
 			percentToQualify: 60,
             verificationVid: "",//베파 영상 없음
-            key: 5
+            key: 6
         },
         /*=================================================================================*/
         {
@@ -183,6 +231,12 @@ const d = {
                     percent: 77,
                     hz: "Mobile"
                 },
+                {
+                    user: "GDescca",
+                    link: "https://www.facebook.com/100036227539980/videos/286353115915604/?notif_id=1594637844793599&notif_t=video_processed&ref=notif",
+                    percent: 42,
+                    hz: "165hz"
+                },
             ],
             name: "sunset",
             author: "YoungUng2",
@@ -197,7 +251,7 @@ const d = {
             },
 			percentToQualify: 42,
             verificationVid: "https://www.youtube.com/watch?v=G4_q-OUDp1E",
-            key: 6
+            key: 7 
         },
         /*=================================================================================*/
         {
@@ -216,7 +270,7 @@ const d = {
             },
 			percentToQualify: 45,
             verificationVid: "https://www.youtube.com/watch?v=WBfsPa8nBo8",
-            key: 7
+            key: 8
         },
         /*=================================================================================*/
         {
@@ -240,7 +294,7 @@ const d = {
             },
 			percentToQualify: 60,
             verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
-            key: 8
+            key: 9
         },
         /*=================================================================================*/
         {
@@ -259,7 +313,7 @@ const d = {
             },
 			percentToQualify: 58,
             verificationVid: "https://www.youtube.com/watch?v=krTYYwsBDp4",
-            key: 9
+            key: 10
         },
         /*=================================================================================*/
         {
@@ -300,7 +354,7 @@ const d = {
             },
 			percentToQualify: 48,
             verificationVid: "",//베파 영상없음
-            key: 10
+            key: 11
         },
         /*=================================================================================*/
         {
@@ -319,7 +373,7 @@ const d = {
             },
 			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=PiFz_uhrKp4",
-            key: 11
+            key: 12
         },
         /*=================================================================================*/
         {
@@ -365,7 +419,7 @@ const d = {
             },
 			percentToQualify: 65,
             verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
-            key: 12
+            key: 13
         },
         /*=================================================================================*/
         {
@@ -389,7 +443,7 @@ const d = {
             },
 			percentToQualify: 56,
             verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
-            key: 13
+            key: 14
         },
         /*=================================================================================*/
         {
@@ -408,7 +462,13 @@ const d = {
                     user: "Cubic",
                     link: "https://www.youtube.com/watch?v=wUrcQYmR5oU",
                     percent: 100,
-                    hz: "mobile"
+                    hz: "Mobile"
+                },
+                {
+                    user: "TrusionGMD",
+                    link: "https://www.youtube.com/watch?v=mUd-96MHJEI",
+                    percent: 100,
+                    hz: "240hz"
                 },
             ],
             name: "EPICLIME REDUX",
@@ -424,7 +484,7 @@ const d = {
             },
 			percentToQualify: 64,
             verificationVid: "https://www.youtube.com/watch?v=MmK2EC0A7PE",
-            key: 14
+            key: 15
         },
         /*=================================================================================*/
         {
@@ -475,7 +535,7 @@ const d = {
                 highest: "10",
                 more: "",
             },
-			percentToQualify: 48,
+			percentToQualify: 100,
             verificationVid: "https://www.youtube.com/watch?v=49w1IIgD8Z8",
             legacyKey: 0
         },
