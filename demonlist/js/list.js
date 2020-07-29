@@ -3,6 +3,12 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "Sparky",
+                    link: "https://www.youtube.com/watch?v=S36dlFZYBx0",
+                    percent: 100,
+                    hz: "240hz"
+                },
             ],
             name: "shadow corridor",
             author: "XkIeL [ddddr]",
@@ -339,6 +345,12 @@ const d = {
                     link: "https://www.youtube.com/watch?v=Tfy4QLop7y8",
                     percent: 100,
                     hz: "60hz"
+                },
+                {
+                    user: "Usung",
+                    link: "https://www.youtube.com/watch?v=jd3Z8D7ANdQ",
+                    percent: 100,
+                    hz: "Mobile"
                 },
             ],
             name: "ZwE1",
