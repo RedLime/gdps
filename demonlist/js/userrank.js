@@ -84,7 +84,7 @@ function getPoint(rank, percent, cutline, hz) {
           hzpoint = 1.5;
       }
   }
-  if (rank > 50) {
+  if (rank > 10) {
     return 0;
   } else {
     return roundNumber(10/Math.sqrt(rank-1), 3);
