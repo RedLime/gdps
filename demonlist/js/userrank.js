@@ -52,7 +52,7 @@ for (var i = 0; i < list.length; i++) {
     if (verifier.toUpperCase() == userData[r].name.toUpperCase()) {
       var userRecord = userData[r].verified;
       userRecord.push(i+1);
-      userData[r].point = roundNumber(userData[r].point + getPoint(i+1, 100, list[i].percentToQualify, null), 3);
+      userData[r].point = roundNumber(userData[r].point + getPoint(i+1, 100, 99, null), 3);
       userData[r].verified = userRecord;
       isFirst = true;
     }
