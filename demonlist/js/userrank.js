@@ -87,12 +87,7 @@ function getPoint(rank, percent, cutline, hz) {
   if (rank > 50) {
     return 0;
   } else {
-      var score = roundNumber((((100/Math.sqrt(((rank-1)/30)+0.35431))-68)*hzpoint)*((percent - (cutline-1))/(100 - (cutline-1))), 3);
-      if (percent != 100) {
-        return roundNumber(score - (score/3), 3);
-      } else {
-        return score;
-      }
+    return roundNumber(10/Math.sqrt(rank-1), 3);
   }
 }
 

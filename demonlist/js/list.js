@@ -21,7 +21,6 @@ const d = {
                 highest: "1",
                 more: "",
             },
-			percentToQualify: 46,
             verificationVid: "https://www.youtube.com/watch?v=T2_CiOz6Tw0",
             key: 0
         },
@@ -52,25 +51,12 @@ const d = {
                 highest: "1",
                 more: "",
             },
-			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=1nmFQGMf0f4",
             key: 1
         },
         /*=================================================================================*/
         {
             vids: [
-                {
-                    user: "ddddr",
-                    link: "https://www.youtube.com/watch?v=gjNrt5j2CZQ",
-                    percent: 61,
-                    hz: "144hz"
-                },
-                {
-                    user: "Lebi",
-                    link: "https://www.youtube.com/watch?v=Udgjaj4Iapc",
-                    percent: 57,
-                    hz: "144hz"
-                },
             ],
             name: "Delta outerface",
             author: "YoungUng2",
@@ -82,9 +68,7 @@ const d = {
                 long: "2분 1초",
                 highest: "1",
                 more: "",
-            },
-			percentToQualify: 44,
-            verificationVid: "https://www.youtube.com/watch?v=12jEX10STuA",
+            },            verificationVid: "https://www.youtube.com/watch?v=12jEX10STuA",
             key: 2
         },
         /*=================================================================================*/
@@ -118,7 +102,6 @@ const d = {
                 highest: "3",
                 more: "",
             },
-			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=puEA266G04A",
             key: 3
         },
@@ -148,7 +131,6 @@ const d = {
                 highest: "4",
                 more: "",
             },
-			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=shzzEMUeKL8",//베파 영상 없음
             key: 4
         },
@@ -183,7 +165,6 @@ const d = {
                 highest: "4",
                 more: "",
             },
-			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=v9zI0kJNOTY",
             key: 5
         },
@@ -194,12 +175,6 @@ const d = {
                     user: "GDTIME",
                     link: "https://www.youtube.com/watch?v=-qzaHMiBp8M",
                     percent: 100,
-                    hz: "120hz"
-                },
-                {
-                    user: "TrusionGMD",
-                    link: "https://www.youtube.com/watch?v=QjQErWGkc1k",
-                    percent: 61,
                     hz: "120hz"
                 },
             ],
@@ -214,7 +189,6 @@ const d = {
                 highest: "6",
                 more: "",
             },
-			percentToQualify: 60,
             verificationVid: "",//베파 영상 없음
             key: 6
         },
@@ -231,18 +205,6 @@ const d = {
                     link: "https://www.youtube.com/watch?v=dZQL5WF5Hv4",
                     percent: 100
                 },
-                {
-                    user: "Cubic",
-                    link: "https://www.youtube.com/watch?v=oWgGB05hpxY",
-                    percent: 77,
-                    hz: "Mobile"
-                },
-                {
-                    user: "GDescca",
-                    link: "https://www.facebook.com/100036227539980/videos/286353115915604/?notif_id=1594637844793599&notif_t=video_processed&ref=notif",
-                    percent: 42,
-                    hz: "165hz"
-                },
             ],
             name: "sunset",
             author: "YoungUng2",
@@ -255,7 +217,6 @@ const d = {
                 highest: "7",
                 more: "",
             },
-			percentToQualify: 42,
             verificationVid: "https://www.youtube.com/watch?v=G4_q-OUDp1E",
             key: 7 
         },
@@ -274,7 +235,6 @@ const d = {
                 highest: "8",
                 more: "",
             },
-			percentToQualify: 45,
             verificationVid: "https://www.youtube.com/watch?v=WBfsPa8nBo8",
             key: 8
         },
@@ -298,7 +258,6 @@ const d = {
                 highest: "9",
                 more: "",
             },
-			percentToQualify: 60,
             verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
             key: 9
         },
@@ -317,9 +276,8 @@ const d = {
                 highest: "10",
                 more: "",
             },
-			percentToQualify: 58,
             verificationVid: "https://www.youtube.com/watch?v=krTYYwsBDp4",
-            key: 10
+            legacyKey: 6
         },
         /*=================================================================================*/
         {
@@ -364,9 +322,8 @@ const d = {
                 highest: "9",
                 more: "",
             },
-			percentToQualify: 48,
             verificationVid: "",//베파 영상없음
-            key: 11
+            legacyKey: 5
         },
         /*=================================================================================*/
         {
@@ -383,9 +340,8 @@ const d = {
                 highest: "12",
                 more: "",
             },
-			percentToQualify: 50,
             verificationVid: "https://www.youtube.com/watch?v=PiFz_uhrKp4",
-            key: 12
+            legacyKey: 4
         },
         /*=================================================================================*/
         {
@@ -429,9 +385,8 @@ const d = {
                 highest: "10",
                 more: "",
             },
-			percentToQualify: 65,
             verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
-            key: 13
+            legacyKey: 3
         },
         /*=================================================================================*/
         {
@@ -453,9 +408,8 @@ const d = {
                 highest: "11",
                 more: "",
             },
-			percentToQualify: 56,
             verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
-            key: 14
+            legacyKey: 2
         },
         /*=================================================================================*/
         {
@@ -494,9 +448,8 @@ const d = {
                 highest: "15",
                 more: "",
             },
-			percentToQualify: 64,
             verificationVid: "https://www.youtube.com/watch?v=MmK2EC0A7PE",
-            key: 15
+            legacyKey: 1
         },
         /*=================================================================================*/
         {
@@ -547,7 +500,6 @@ const d = {
                 highest: "10",
                 more: "",
             },
-			percentToQualify: 100,
             verificationVid: "https://www.youtube.com/watch?v=49w1IIgD8Z8",
             legacyKey: 0
         },
