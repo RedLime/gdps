@@ -52,7 +52,7 @@ for (var i = 0; i < list.length; i++) {
     if (verifier.toUpperCase() == userData[r].name.toUpperCase()) {
       var userRecord = userData[r].verified;
       userRecord.push(i+1);
-      userData[r].point = roundNumber(userData[r].point + getPoint(i+1, null), 3);
+      userData[r].point = roundNumber(userData[r].point + getPoint(i+1, "144hz"), 3);
       userData[r].verified = userRecord;
       isFirst = true;
     }
@@ -75,7 +75,7 @@ function getPoint(rank, hz) {
   } else if (hz=="Mobile") {
       hzpoint = 2.0;
   } else {
-      hzInt = hz.replace(/[^0-9]/g,'');
+      var hzInt = hz.replace(/[^0-9]/g,'');
       if (hzInt >= 100) {
           hzpoint = 1;
       } else if (hzInt >= 70) {
@@ -87,7 +87,7 @@ function getPoint(rank, hz) {
   if (rank > 10) {
     return 0;
   } else {
-    return roundNumber(10/Math.sqrt(rank-1), 3);
+    return roundNumber(10/Math.sqrt(rank+1), 3);
   }
 }
 

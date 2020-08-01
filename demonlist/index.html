@@ -277,7 +277,7 @@ function load(num) {
             $("#length").html(`<center><strong>길이</strong><br>${entry.mapInfo.long}</center><br>`);
         }
 
-        $("#point").html(`<center><strong>100%시 획득 UP</strong><br>${getPoint(num, 100, parseInt(entry.percentToQualify), null)}점</center><br>`);
+        $("#point").html(`<center><strong>100%시 획득 UP</strong><br>${getPoint(num, null)}점</center><br>`);
         if (num < 51) {
             $("#cutline").show();
             $("#cutline-percent").html(`<strong>${entry.percentToQualify}</strong>`);
@@ -593,7 +593,7 @@ function loadUserPointInfo(order) {
     var isbest_verify = false;
     var vid = ``;
     user.records.sort(function(a, b) {
-        return getPoint(b.rank, b.percent, parseInt(list[b.rank - 1].percentToQualify), b.hz) - getPoint(a.rank, a.percent, parseInt(list[a.rank - 1].percentToQualify), a.hz);
+        return getPoint(b.rank, b.hz) - getPoint(a.rank, a.hz);
     })
     for (var i = 0; i < user.records.length; i++) {
         if (user.records[i].percent == 100) {
@@ -634,7 +634,7 @@ function moreInfoClear(order) {
     var clear_html = `<center><table id="uplist-user-clear"><tr><td><strong style="font-size=28px">레벨 이름</strong></td><td><strong style="font-size=28px">순위, 사용 기기</strong></td><td><strong style="font-size=35px">획득 UP</strong></td></tr>`;
     for (var i = 0; i < user.records.length; i++) {
         var alink = `<a href=${user.records[i].link}>`;
-        clear_html = clear_html + `<tr><td>${alink}${user.records[i].percent==100 ?`<strong>` : ``}${list[user.records[i].rank-1].name} ${user.records[i].percent}%${user.records[i].percent==100 ?`</strong>` : ``}</a></td><td>${alink}#${user.records[i].rank}, ${user.records[i].hz}</a></td><td>${alink}(+UP ${getPoint(user.records[i].rank, user.records[i].percent, parseInt(list[user.records[i].rank-1].percentToQualify), user.records[i].hz)})</a></td></tr>`;
+        clear_html = clear_html + `<tr><td>${alink}${user.records[i].percent==100 ?`<strong>` : ``}${list[user.records[i].rank-1].name} ${user.records[i].percent}%${user.records[i].percent==100 ?`</strong>` : ``}</a></td><td>${alink}#${user.records[i].rank}, ${user.records[i].hz}</a></td><td>${alink}(+UP ${getPoint(user.records[i].rank, user.records[i].hz)})</a></td></tr>`;
     }
     clear_html = clear_html + `</table></center>`;
     Swal.fire({
