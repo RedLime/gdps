@@ -25,13 +25,13 @@ for (var i = 0; i < list.length; i++) {
           if (!isLoot) {
             var userRecord = []; var verifyRecord = [];
             userRecord.push({rank : rank, percent : record.percent, link: record.link, hz: record.hz==null ? "144hz" : record.hz});
-            userData.push({name: record.user, point: getPoint(rank, record.percent, entry.percentToQualify, record.hz), records : userRecord, verified : verifyRecord});
+            userData.push({name: record.user, point: getPoint(rank, record.hz), records : userRecord, verified : verifyRecord});
           } else {
             for (var b = 0 ; b < userData.length ; b++) {
                 if (userData[b].name.toUpperCase() == record.user.toUpperCase()) {
                     var userRecord = userData[b].records;
                     userRecord.push({rank : rank, percent : record.percent, link: record.link, hz: record.hz==null ? "144hz" : record.hz});
-                    userData[b].point = roundNumber(userData[b].point + getPoint(rank, record.percent, entry.percentToQualify, record.hz), 3);
+                    userData[b].point = roundNumber(userData[b].point + getPoint(rank, record.hz), 3);
                     userData[b].records = userRecord;
                 }
             }
@@ -52,7 +52,7 @@ for (var i = 0; i < list.length; i++) {
     if (verifier.toUpperCase() == userData[r].name.toUpperCase()) {
       var userRecord = userData[r].verified;
       userRecord.push(i+1);
-      userData[r].point = roundNumber(userData[r].point + getPoint(i+1, 100, 99, null), 3);
+      userData[r].point = roundNumber(userData[r].point + getPoint(i+1, null), 3);
       userData[r].verified = userRecord;
       isFirst = true;
     }
@@ -60,7 +60,7 @@ for (var i = 0; i < list.length; i++) {
   if (!isFirst) {
     var userRecord = []; var verifyRecord = [];
     verifyRecord.push(i+1)
-    userData.push({name: verifier, point: getPoint(i+1, 100, 99, "144hz"), records : userRecord, verified : verifyRecord});
+    userData.push({name: verifier, point: getPoint(i+1, "144hz"), records : userRecord, verified : verifyRecord});
   }
 }
 
@@ -68,7 +68,7 @@ userData.sort(function(a,b) {
     return b.point - a.point;
 });
 
-function getPoint(rank, percent, cutline, hz) {
+function getPoint(rank, hz) {
   var hzpoint = 0.0;
   if (hz == null) {
       hzpoint = 1;
