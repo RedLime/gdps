@@ -327,7 +327,7 @@ $("<div>").html(`<div class="list">검색 : <input id="search" type="text"></div
 
 for (i = 0; i < list.length; i++) {
     var entry = list[i];
-    $("<div>").addClass("entry").html(`<div class="list" id="list${i+1}" onMouseOver="this.style.backgroundColor='rgba(163, 163, 163, 0.6)'" onMouseOut="this.style.backgroundColor=''">${i+1 > 50 ? "" : "#"+(i+1)+" "}${entry.name}<br><em class="list_author">${entry.author}</em></div>`).data('order', i + 1).appendTo($("#demonlist"));
+    $("<div>").addClass("entry").html(`<div class="list" id="list${i+1}" onMouseOver="this.style.backgroundColor='rgba(163, 163, 163, 0.6)'" onMouseOut="this.style.backgroundColor=''">${i+1 > 10 ? "" : "#"+(i+1)+" "}${entry.name}<br><em class="list_author">${entry.author}</em></div>`).data('order', i + 1).appendTo($("#demonlist"));
 }
 
 var res = function() {
