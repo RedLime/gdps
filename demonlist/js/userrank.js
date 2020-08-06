@@ -110,18 +110,14 @@ function getTrophy(rank) {
     var point = userData[rank-1].point;
     if (rank == 1) {
       return "top1_trophy.png";
-    } else if (point >= 500) {
+    } else if (point >= 30) {
       return "gold_trophy.png";
-    } else if (point >= 400) {
+    } else if (point >= 20) {
       return "silver_trophy.png";
-    } else if (point >= 250) {
-      return "cooper_trophy.png";
-    } else if (point >= 100) {
-      return "green_trophy.png";
-    } else if (point >= 50) {
-      return "aqua_trophy.png";
     } else if (point >= 10) {
-      return "pink_trophy.png";
+      return "cooper_trophy.png";
+    } else if (point >= 5) {
+      return "green_trophy.png";
     } else {
       return "red_trophy.png";
     }

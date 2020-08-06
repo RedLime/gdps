@@ -31,12 +31,10 @@ var moreinfo_html = `<center><strong style="font-size: 30px">< RedLime GDPS 데�
 ` 유저 포인트는 순위에 따라서 인게임처럼 트로피(일종의 티어)가 붙습니다.<br><br>` +
 ` <strong>각각의 트로피 조건 : </strong><br>` +
 ` <img src="./img/top1_trophy.png" width="18px"> Top 1 트로피 : UP 1위 <br>` +
-` <img src="./img/gold_trophy.png" width="18px"> Gold 트로피 : UP 500 이상 <br>` +
-` <img src="./img/silver_trophy.png" width="18px"> Silver 트로피 : UP 400 이상 <br>` +
-` <img src="./img/cooper_trophy.png" width="18px"> Bronze 트로피 : UP 250 이상 <br>` +
-` <img src="./img/green_trophy.png" width="18px"> Green 트로피 : UP 100 이상 <br>` +
-` <img src="./img/aqua_trophy.png" width="18px"> Aqua 트로피 : UP 50 이상 <br>` +
-` <img src="./img/pink_trophy.png" width="18px"> Pink 트로피 : UP 10 이상 <br>` +
+` <img src="./img/gold_trophy.png" width="18px"> Gold 트로피 : UP 30 이상 <br>` +
+` <img src="./img/silver_trophy.png" width="18px"> Silver 트로피 : UP 20 이상 <br>` +
+` <img src="./img/cooper_trophy.png" width="18px"> Bronze 트로피 : UP 10 이상 <br>` +
+` <img src="./img/green_trophy.png" width="18px"> Green 트로피 : UP 5 이상 <br>` +
 ` <img src="./img/red_trophy.png" width="18px"> Red 트로피 : UP 리스트 등재 <br>` +
 
 `<br><hr width="80%"><br>`+
