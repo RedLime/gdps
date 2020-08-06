@@ -224,6 +224,24 @@ const d = {
         {
             vids: [
             ],
+            name: "Joker",
+            author: "YoungUng2",
+            mapInfo: {
+                simpleExp: "JJamBBongEpic",
+                uploadDate: "2020.07.23",
+                verifingAtt: "3469",
+                id: "6760 / 200723",
+                long: "1분 31초",
+                highest: "9",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=Co8hQKrx-0Y",
+            key: 8
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
             name: "After Madness",
             author: "Lebi",
             mapInfo: {
@@ -236,7 +254,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=WBfsPa8nBo8",
-            key: 8
+            key: 9
         },
         /*=================================================================================*/
         {
@@ -245,6 +263,12 @@ const d = {
                     user: "Lebi",
                     link: "https://www.youtube.com/watch?v=19EBVeDo9KM",
                     percent: 100
+                },
+                {
+                    user: "GDTIME",
+                    link: "https://www.youtube.com/watch?v=-Hc8RaamYAQ",
+                    percent: 100,
+                    hz: "120hz"
                 },
             ],
             name: "inner demons",
@@ -259,7 +283,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
-            key: 9
+            legacyKey: 7
         },
         /*=================================================================================*/
         {
