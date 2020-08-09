@@ -242,6 +242,24 @@ const d = {
         {
             vids: [
             ],
+            name: "Black Storm",
+            author: "RedLimeGD",
+            mapInfo: {
+                simpleExp: "My first solo level, remake of Black blizzard by KrmaL. Verified on my Stream!",
+                uploadDate: "2020.08.07",
+                verifingAtt: "6890",
+                id: "7470 / 006890",
+                long: "1분 40초",
+                highest: "10",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=sDQagQmo3j0",
+            key: 9
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
             name: "After Madness",
             author: "Lebi",
             mapInfo: {
@@ -254,7 +272,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=WBfsPa8nBo8",
-            key: 9
+            legacyKey: 8
         },
         /*=================================================================================*/
         {
