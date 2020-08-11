@@ -171,6 +171,24 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+            ],
+            name: "Black Storm",
+            author: "RedLimeGD",
+            mapInfo: {
+                simpleExp: "My first solo level, remake of Black blizzard by KrmaL. Verified on my Stream!",
+                uploadDate: "2020.08.07",
+                verifingAtt: "6890",
+                id: "7470 / 006890",
+                long: "1분 40초",
+                highest: "7",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=sDQagQmo3j0",
+            key: 6
+        },
+        /*=================================================================================*/
+        {
+            vids: [
                 {
                     user: "GDTIME",
                     link: "https://www.youtube.com/watch?v=-qzaHMiBp8M",
@@ -190,7 +208,7 @@ const d = {
                 more: "",
             },
             verificationVid: "",//베파 영상 없음
-            key: 6
+            key: 7
         },
         /*=================================================================================*/
         {
@@ -218,7 +236,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=G4_q-OUDp1E",
-            key: 7 
+            key: 8
         },
         /*=================================================================================*/
         {
@@ -236,24 +254,6 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=Co8hQKrx-0Y",
-            key: 8
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-            ],
-            name: "Black Storm",
-            author: "RedLimeGD",
-            mapInfo: {
-                simpleExp: "My first solo level, remake of Black blizzard by KrmaL. Verified on my Stream!",
-                uploadDate: "2020.08.07",
-                verifingAtt: "6890",
-                id: "7470 / 006890",
-                long: "1분 40초",
-                highest: "10",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=sDQagQmo3j0",
             key: 9
         },
         /*=================================================================================*/
