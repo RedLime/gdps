@@ -171,6 +171,22 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "GDTIME",
+                    link: "https://www.youtube.com/watch?v=kB_IaNY6GOU",
+                    percent: 100,
+                    hz: "120hz"
+                },
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=pQpeG1Xi17Y",
+                    percent: 100
+                },
+                {
+                    user: "Harg_Chucu",
+                    link: "https://www.youtube.com/watch?v=pQpeG1Xi17Y",
+                    percent: 100
+                },
             ],
             name: "Black Storm",
             author: "RedLimeGD",
