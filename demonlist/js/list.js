@@ -90,6 +90,12 @@ const d = {
                     percent: 100,
                     hz: "240hz Bypass"
                 },
+                {
+                    user: "GDTIME",
+                    link: "https://www.youtube.com/watch?v=9RynXxK1NvU",
+                    percent: 100,
+                    hz: "120hz"
+                },
             ],
             name: "Sandstorm",
             author: "YoungUng2",
