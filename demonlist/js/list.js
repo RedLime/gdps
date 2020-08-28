@@ -177,6 +177,24 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+            ],
+            name: "Furthest",
+            author: "miini03 [ddddr]",
+            mapInfo: {
+                simpleExp: "Far Flew Faster Further Furthest / Verified by ddddr",
+                uploadDate: "2020.08.27",
+                verifingAtt: "-",
+                id: "8457 / Free copy",
+                long: "1분 17초",
+                highest: "7",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=wrD0UuupH1U",
+            key: 6
+        },
+        /*=================================================================================*/
+        {
+            vids: [
                 {
                     user: "GDTIME",
                     link: "https://www.youtube.com/watch?v=kB_IaNY6GOU",
@@ -206,7 +224,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=sDQagQmo3j0",
-            key: 6
+            key: 7
         },
         /*=================================================================================*/
         {
@@ -230,7 +248,7 @@ const d = {
                 more: "",
             },
             verificationVid: "",//베파 영상 없음
-            key: 7
+            key: 8
         },
         /*=================================================================================*/
         {
@@ -258,7 +276,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=G4_q-OUDp1E",
-            key: 8
+            key: 9
         },
         /*=================================================================================*/
         {
@@ -276,7 +294,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=Co8hQKrx-0Y",
-            key: 9
+            legacyKey: 9
         },
         /*=================================================================================*/
         {
