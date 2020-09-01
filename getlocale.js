@@ -12,7 +12,7 @@ function getLocale() {
 function moveLocalePage(lang, url) {
     console.log("test")
     if (getLocale() == lang) {
-        //window.location.replace(url);
+        window.location.replace(url);
         console.log("test2")
     }
 }
