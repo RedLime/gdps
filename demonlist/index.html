@@ -25,7 +25,7 @@
         <header id="header" class="dl-header">
             <div>
                 <img class="header" id="side_button" src="./img/sidebar.png" style="cursor:pointer">
-                <img class="header" id="title-img" src="./img/header.png" width="180px">
+                <!--<img class="header" id="title-img" src="./img/header.png" width="180px">-->
             </div>
         </header>
         <div id="info">
@@ -56,12 +56,12 @@
                         <div id="info-record">
                             <br>
                             <div id="info-record-title"><strong>
-                                    <center>기록</center>
+                                    <center>Records</center>
                             </strong></div>
                             <div id="info-record-amount"></div>
                             <div id="info-record-table"></div>
                             <br>
-                            <center>기록을 클릭하면 해당 영상으로 이동합니다.</center>
+                            <center>Click Record to move to that video.</center>
                             <div id="info-record"></div>
                         </div>
                     </div>
@@ -71,19 +71,19 @@
                 <hr id="display-line" style="width: 75%">
                 <div class="more" id="userpointrank">
                     <div id="userpointrank-title">
-                        <center><strong>유저 포인트 랭킹 (UP)</strong></center>
+                        <center><strong>User Points Rank</strong></center>
                     </div>
                     <div id="userpointrank-list">
                         <div id="userpointrank-list-top15"></div>
-                        <div class="userrank-link" id="up-more">자세히 보기</div>
+                        <div class="userrank-link" id="up-more">more details</div>
                     </div>
                 </div>
                 <br>
                 <div class="more" id="summit-record">
                     <div id="summit-record-title">
-                        <center><strong>등재할 수 있는 기록을 보유하고 계신가요?</strong>
+                        <center><strong>Do you have any records that can be listed?</strong>
                     </div>
-                    <a href="https://forms.gle/wa38ERPzTif7ewKE8" target="_blank"><div class="userrank-link">지금 등재를 신청하세요!</div></a>
+                    <a href="https://forms.gle/wa38ERPzTif7ewKE8" target="_blank"><div class="userrank-link">Submit Record</div></a>
                     </center>
                 </div>
                 <br>
@@ -96,7 +96,7 @@
         <div class="popup" id="popup-up">
             <div id="popup-up-main">
                 <div id="popup-up-info">
-                    <div style="background: rgb(163, 163, 163)"><strong>유저 검색 : <input id="popup-up-search" type="text" style="text-align: left"></strong></div>
+                    <div style="background: rgb(163, 163, 163)"><strong>Search : <input id="popup-up-search" type="text" style="text-align: left"></strong></div>
                     <div id="popup-up-list">
                         <div id="popup-up-user-list"></div>
                     </div>
@@ -116,53 +116,9 @@
             </div>
             <div id="popup-up-description" style="font-size: 13px">
                 <hr>
-                <center>모든 유저포인트는 자동으로 계산되어 정렬됩니다. <span onclick="userpointInfo()" style="cursor: pointer"><u>유저포인트 계산식을 알고싶으신가요?</u></center><br>
+                <center>All User points are automatically calculated and sorted. <span onclick="userpointInfo()" style="cursor: pointer"><u>More Info Details</u></center><br>
                 <div id="popup-up-close" class="close" style="font-size: 20px">닫기</div>
             </div>
-        </div>
-        <div class="popup" id="popup-ur">
-            <div id="popup-ur-title" style="margin-top: 4px">
-                <center><strong style="font-size: 25px">한국인 유저 스탯 리스트</center></strong>
-            </div>
-            <center>
-                <div id="popup-ur-type" style="margin-top: 4px">
-                    <span id="popup-ur-type-info" class="popup-ur-type" onclick="loadUserList('info')"><img src="img/unrated.png" height="40px"></span>
-                    <span id="popup-ur-type-star" class="popup-ur-type" onclick="loadUserList('star')"><img src="img/star.png" height="40px"></span>
-                    <span id="popup-ur-type-demon" class="popup-ur-type" onclick="loadUserList('demon')"><img src="img/demon.png" height="40px"></span>
-                    <span id="popup-ur-type-cp" class="popup-ur-type" onclick="loadUserList('cp')"><img src="img/cp.png" height="40px"></span>
-                    <span id="popup-ur-type-coin" class="popup-ur-type" onclick="loadUserList('cc')"><img src="img/cc.png" height="40px"></span>
-                    <span id="popup-ur-type-diamond" class="popup-ur-type" onclick="loadUserList('diamond')"><img src="img/diamond.png" height="40px"></span>
-                </div>
-            </center>
-            <hr>
-            <center style="font-size: 22px; margin-top: 10px; margin-bottom: 10px"><span id="popup-ur-cutline"></span></center>
-            <hr>
-            <center>
-                <div id="popup-ur-display" style="margin-top: 8px; font-size: 22px">확인할 스탯을 지정해주세요!</div>
-            </center>
-            <hr>
-            <div id="popup-ur-description" style="margin-top: 8px"></div>
-            <div id="popup-ur-close" class="close" style="font-size: 20px">닫기</div>
-        </div>
-        <div class="popup" id="popup-request" style="width: 500px">
-            <div id="popup-request-title" style="margin-top: 4px">
-                <center><strong style="font-size: 22px">기록 등재 신청</center></strong>
-            </div>
-            <hr>
-            <center>
-                <div id="popup-request-display" style="margin-top: 8px; font-size: 18px"><strong>신청하기 전에, 등재 조건을 확인하세요!</strong></div>
-            </center>
-            <hr>
-            <center>
-                <a href="https://forms.gle/QhDhtdHaW9dQohBEA" target="_blank">
-                    <div id="popup-request-demonlist" class="popup-request">포럼 데몬 기록 신청</div>
-                </a>
-                <a href="https://forms.gle/58UaLe3U4zaarG916" target="_blank">
-                    <div id="popup-request-userlist" class="popup-request">유저 스탯 등재/업데이트 신청</div>
-                </a>
-                <hr>
-            </center>
-            <div id="popup-request-close" class="close" style="font-size: 20px">닫기</div>
         </div>
         <div id="copyright">
             <hr>
@@ -271,13 +227,13 @@ function load(num) {
             $("#highest-order").show();
             $("#length").show();
             $("#explansion").html(`<br><center><strong>≪${entry.mapInfo.simpleExp}≫</strong></center><br>`);
-            $("#upload-date").html(`<center><strong>업로드 일자</strong><br>${entry.mapInfo.uploadDate}</center><br>`);
-            $("#attempts").html(`<center><strong>레벨 ID / Password</strong><br>${entry.mapInfo.id}</center><br>`);
-            $("#highest-order").html(`<center><strong>최고 순위</strong><br>${entry.mapInfo.highest}위</center><br>`);
-            $("#length").html(`<center><strong>길이</strong><br>${entry.mapInfo.long}</center><br>`);
+            $("#upload-date").html(`<center><strong>Upload Date</strong><br>${entry.mapInfo.uploadDate}</center><br>`);
+            $("#attempts").html(`<center><strong>Level ID / Password</strong><br>${entry.mapInfo.id}</center><br>`);
+            $("#highest-order").html(`<center><strong>Highest Rank</strong><br>${entry.mapInfo.highest}위</center><br>`);
+            $("#length").html(`<center><strong>Length</strong><br>${entry.mapInfo.long}</center><br>`);
         }
 
-        $("#point").html(`<center><strong>100%시 획득 UP</strong><br>${getPoint(num, null)}점</center><br>`);
+        $("#point").html(`<center><strong>Demonlist User Points (100%)</strong><br>${getPoint(num, null)} UP</center><br>`);
         if (num < 51) {
             $("#cutline").show();
             $("#cutline-percent").html(`<strong>${entry.percentToQualify}</strong>`);
@@ -288,7 +244,7 @@ function load(num) {
         $("#info-record-table").html("");
         var beat = 0;
         var records = entry.vids;
-        var rec_html = `<center><table style='border-left:0;border-right:0;border-bottom:0;border-top:0' id="info-record-list"><tr><td><strong>유저 이름</strong></td><td><strong>진행도</strong></td><td><strong>사용 기기</strong></td></tr>`;
+        var rec_html = `<center><table style='border-left:0;border-right:0;border-bottom:0;border-top:0' id="info-record-list"><tr><td><strong>User</strong></td><td><strong>Percent</strong></td><td><strong>Device</strong></td></tr>`;
         records.sort(function(a, b) {
             return b.percent - a.percent;
         });
@@ -310,10 +266,10 @@ function load(num) {
         }
         rec_html = rec_html + `</table></center>`;
         if (records.length == 0) {
-            rec_html = rec_html + `<center>기록된 등록이 없습니다! 첫 등재자가 되어보세요!</center>`;
+            rec_html = rec_html + `<center>No registration recorded! Be the First Victor!</center>`;
         }
         $("#info-record-table").html(rec_html);
-        $("#info-record-amount").html(`<center>등록된 ${records.length}개의 기록 중 <strong>${beat}개</strong>는 클리어 기록입니다.</center>`);
+        $("#info-record-amount").html(`<center>${records.length} Records registered. out of which <strong>${beat}</strong> are 100%</center>`);
     }
 }
 
@@ -321,9 +277,9 @@ load(0);
 $("#more").animate({ "opacity": "0.0" }, 0);
 $("#more").animate({ "opacity": "1.0" }, 300);
 
-$("<div>").addClass("entry selected").html(`<div class="list" id="list0" onMouseOver="this.style.backgroundColor='rgba(163, 163, 163, 0.6)'" onMouseOut="this.style.backgroundColor=''">홈</div>`).data('order', 0).appendTo($("#menu"));
-$("<div>").addClass("entry").html(`<div class="list" id="list-2" onMouseOver="this.style.backgroundColor='rgba(163, 163, 163, 0.6)'" onMouseOut="this.style.backgroundColor=''">도움말</div>`).data('second-order', -2).appendTo($("#menu"));
-$("<div>").html(`<div class="list">검색 : <input id="search" type="text"></div>`).appendTo($("#menu"));
+$("<div>").addClass("entry selected").html(`<div class="list" id="list0" onMouseOver="this.style.backgroundColor='rgba(163, 163, 163, 0.6)'" onMouseOut="this.style.backgroundColor=''">Home</div>`).data('order', 0).appendTo($("#menu"));
+$("<div>").addClass("entry").html(`<div class="list" id="list-2" onMouseOver="this.style.backgroundColor='rgba(163, 163, 163, 0.6)'" onMouseOut="this.style.backgroundColor=''">Info</div>`).data('second-order', -2).appendTo($("#menu"));
+$("<div>").html(`<div class="list">Search : <input id="search" type="text"></div>`).appendTo($("#menu"));
 
 for (i = 0; i < list.length; i++) {
     var entry = list[i];
@@ -340,14 +296,6 @@ var res = function() {
     $("#side").css({ "height": remainingHeight, "top": header_height + "px" });
     var pu_up_width = parseFloat($("#popup-up").width().toString().replace("px", ""));
     $("#popup-up").animate({ "left": (width / 2 - (pu_up_width / 2)) + "px" }, 0);
-    var pu_up_width = parseFloat($("#popup-ur").width().toString().replace("px", ""));
-    $("#popup-ur").animate({ "left": (width / 2 - (pu_up_width / 2)) + "px" }, 0);
-    var pu_up_width = parseFloat($("#popup-request").width().toString().replace("px", ""));
-    $("#popup-request").animate({ "left": (width / 2 - (pu_up_width / 2)) + "px" }, 0);
-    if ($("#display").width() < 760) {
-        $(".vid").css("width", $("#display").width() + "px");
-        $(".vid").css("height", ($(".vid").width() / 1.777778) + "px");
-    }
 };
 $(window).resize(function() { if (searching == false) { res(); } });
 res();
@@ -604,9 +552,9 @@ function loadUserPointInfo(order) {
             }
         }
     }
-    var verified = "<strong style='font-size: 18px'>< 베리파이 한 레벨 ><br></strong>";
+    var verified = "<strong style='font-size: 18px'>< Verified Level ><br></strong>";
     if (user.verified.length == 0) {
-        verified = verified + "없음 :(";
+        verified = verified + "Nothing is here :(";
     }
     for (var i = 0; i < user.verified.length; i++) {
         if (best_records > user.verified[i]) {
@@ -617,12 +565,12 @@ function loadUserPointInfo(order) {
         verified = verified + `<a href="${list[user.verified[i]-1].verificationVid}">` + (user.verified[i] < 76 ? "<strong style='font-size: 16px'>" : "") + list[user.verified[i] - 1].name + (user.verified[i] < 76 ? "</strong>" : "") + "</a>" + (user.verified.length - 1 == i ? "" : ", ");
     }
     $("#popup-up-user-verified").html(verified);
-    $("#popup-up-user-clear").html(`<center style="font-size: 18px"><strong>< 클리어 / 전체 기록 개수 ><br><span style="font-size: 16px">${clear_records.length}개 / ${user.records.length}개</span></strong><br><span style="font-size: 14px">> <u onclick="moreInfoClear(${order})" style="cursor: pointer">기록 모두 보기</u> <</span></center>`);
+    $("#popup-up-user-clear").html(`<center style="font-size: 18px"><strong>< Complete / All Records ><br><span style="font-size: 16px">${clear_records.length} Records / ${user.records.length} Records</span></strong><br><span style="font-size: 14px">> <u onclick="moreInfoClear(${order})" style="cursor: pointer">All Records</u> <</span></center>`);
     $("#popup-up-name").html(`<center><strong style="font-size: 25px"><img src="img/${getTrophy(order+1)}" width="20px">#${order+1} ${user.name}</center></strong>`);
-    $("#popup-up-score").html(`<center style="font-size: 18px"><strong>보유 유저 포인트 : </strong>${user.point} UP</center>`);
+    $("#popup-up-score").html(`<center style="font-size: 18px"><strong>User Points : </strong>${user.point} UP</center>`);
     $("#popup-up-user-best").empty();
     $("#popup-up-user-vid").empty();
-    $("#popup-up-user-best").html(`<center style="font-size: 18px"><strong>최고 업적 : ${list[best_records-1].name} ${isbest_verify==true ? "Verified" : "100%"}</strong></center>`);
+    $("#popup-up-user-best").html(`<center style="font-size: 18px"><strong>Best Record : ${list[best_records-1].name} ${isbest_verify==true ? "Verified" : "100%"}</strong></center>`);
     $("#popup-up-user-vid").html(`<center><iframe id="best-rec-vid" class="small-vid" style="width: 438px; height: 246px" src="https://www.youtube.com/embed/${vid}?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen></center>`);
 
     $("#best-rec-vid").css("width", ($("#popup-up-display").width() * 0.8) + "px");
@@ -631,14 +579,14 @@ function loadUserPointInfo(order) {
 
 function moreInfoClear(order) {
     var user = userData[order];
-    var clear_html = `<center><table id="uplist-user-clear"><tr><td><strong style="font-size=28px">레벨 이름</strong></td><td><strong style="font-size=28px">순위, 사용 기기</strong></td><td><strong style="font-size=35px">획득 UP</strong></td></tr>`;
+    var clear_html = `<center><table id="uplist-user-clear"><tr><td><strong style="font-size=28px">Level</strong></td><td><strong style="font-size=28px">Rank, Device</strong></td><td><strong style="font-size=35px">UP</strong></td></tr>`;
     for (var i = 0; i < user.records.length; i++) {
         var alink = `<a href=${user.records[i].link}>`;
         clear_html = clear_html + `<tr><td>${alink}${user.records[i].percent==100 ?`<strong>` : ``}${list[user.records[i].rank-1].name} ${user.records[i].percent}%${user.records[i].percent==100 ?`</strong>` : ``}</a></td><td>${alink}#${user.records[i].rank}, ${user.records[i].hz}</a></td><td>${alink}(+UP ${getPoint(user.records[i].rank, user.records[i].hz)})</a></td></tr>`;
     }
     clear_html = clear_html + `</table></center>`;
     Swal.fire({
-        title: user.name + "의 클리어 데몬",
+        title: user.name + "'s complete demonlist demons",
         html: clear_html,
         width: '850px',
     })
