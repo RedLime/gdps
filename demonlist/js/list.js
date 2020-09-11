@@ -211,6 +211,11 @@ const d = {
                     link: "https://www.youtube.com/watch?v=pQpeG1Xi17Y",
                     percent: 100
                 },
+                {
+                    user: "Blancookie",
+                    link: "https://www.youtube.com/watch?v=TKERGcBadjI",
+                    percent: 100
+                },
             ],
             name: "Black Storm",
             author: "RedLimeGD",
@@ -234,6 +239,12 @@ const d = {
                     link: "https://www.youtube.com/watch?v=-qzaHMiBp8M",
                     percent: 100,
                     hz: "120hz"
+                },
+                {
+                    user: "XkIeL",
+                    link: "https://www.youtube.com/watch?v=qB1D_X4pckE",
+                    percent: 100,
+                    hz: "165hz"
                 },
             ],
             name: "nautilus",
@@ -294,7 +305,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=Co8hQKrx-0Y",
-            legacyKey: 9
+            key: 10
         },
         /*=================================================================================*/
         {
@@ -312,7 +323,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=WBfsPa8nBo8",
-            legacyKey: 8
+            key: 11
         },
         /*=================================================================================*/
         {
@@ -341,7 +352,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
-            legacyKey: 7
+            key: 12
         },
         /*=================================================================================*/
         {
@@ -359,7 +370,147 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=krTYYwsBDp4",
-            legacyKey: 6
+            key: 13
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
+            name: "After Out",
+            author: "Lebi",
+            mapInfo: {
+                simpleExp: "Dry Out 'After'",
+                uploadDate: "2020.06.20",
+                verifingAtt: "",
+                id: "5072 / Copy 불가",
+                long: "1분 9초",
+                highest: "12",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=PiFz_uhrKp4",
+            key: 14
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
+            name: "violence",
+            author: "Ari1479",
+            mapInfo: {
+                simpleExp: "It has 27437 objects. I wish it's rated hard demon or insane demon :)))",
+                uploadDate: "2020.08.29",
+                verifingAtt: "",
+                id: "8578 / 002631",
+                long: "1분 5초",
+                highest: "16",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=npuvo4uwFYU",
+            key: 15
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=190s",
+                    percent: 100
+                },
+                {
+                    user: "bongus",
+                    link: "https://www.youtube.com/watch?v=2BMgud7RsI4",
+                    percent: 100
+                },
+                {
+                    user: "Cubic",
+                    link: "https://www.youtube.com/watch?v=9Hco_OYceZM",
+                    percent: 100,
+                    hz: "Mobile"
+                },
+                {
+                    user: "Lebi",
+                    link: "https://www.youtube.com/watch?v=YS1tDBuVe9w",
+                    percent: 100
+                },
+                {
+                    user: "Usung",
+                    link: "https://www.youtube.com/watch?v=J35QqVU4NvI",
+                    percent: 66,
+                    hz: "Mobile"
+                },
+            ],
+            name: "Further",
+            author: "miini03",
+            mapInfo: {
+                simpleExp: "Far Flew Faster FURTHER",
+                uploadDate: "2020.04.26",
+                verifingAtt: "",
+                id: "696 / Free Copy",
+                long: "1분 04초",
+                highest: "10",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
+            key: 16
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
+            name: "The last world",
+            author: "Specker",
+            mapInfo: {
+                simpleExp: "",
+                uploadDate: "2020.07.25",
+                verifingAtt: "",
+                id: "6912 / 352197",
+                long: "1분 11초",
+                highest: "18",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=YzyICozkUFs",
+            key: 17
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "bongus",
+                    link: "https://www.youtube.com/watch?v=6Ubv9BMCg7Q",
+                    percent: 100
+                },
+            ],
+            name: "After On Track",
+            author: "Lebi",
+            mapInfo: {
+                simpleExp: "Back On Track 'After'",
+                uploadDate: "2020.05.13",
+                verifingAtt: "",
+                id: "2391 / Copy 불가",
+                long: "1분 29초",
+                highest: "11",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
+            key: 18
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
+            name: "lequiem",
+            author: "MiiNi03",
+            mapInfo: {
+                simpleExp: "",
+                uploadDate: "2020.07.02",
+                verifingAtt: "",
+                id: "5720 / Free Copy",
+                long: "1분 15초",
+                highest: "20",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=m859W71SDlk",
+            key: 19
         },
         /*=================================================================================*/
         {
@@ -405,93 +556,7 @@ const d = {
                 more: "",
             },
             verificationVid: "",//베파 영상없음
-            legacyKey: 5
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-            ],
-            name: "After Out",
-            author: "Lebi",
-            mapInfo: {
-                simpleExp: "Dry Out 'After'",
-                uploadDate: "2020.06.20",
-                verifingAtt: "",
-                id: "5072 / Copy 불가",
-                long: "1분 9초",
-                highest: "12",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=PiFz_uhrKp4",
-            legacyKey: 4
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-                {
-                    user: "ddddr",
-                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=190s",
-                    percent: 100
-                },
-                {
-                    user: "bongus",
-                    link: "https://www.youtube.com/watch?v=2BMgud7RsI4",
-                    percent: 100
-                },
-                {
-                    user: "Cubic",
-                    link: "https://www.youtube.com/watch?v=9Hco_OYceZM",
-                    percent: 100,
-                    hz: "Mobile"
-                },
-                {
-                    user: "Lebi",
-                    link: "https://www.youtube.com/watch?v=YS1tDBuVe9w",
-                    percent: 100
-                },
-                {
-                    user: "Usung",
-                    link: "https://www.youtube.com/watch?v=J35QqVU4NvI",
-                    percent: 66,
-                    hz: "Mobile"
-                },
-            ],
-            name: "Further",
-            author: "miini03",
-            mapInfo: {
-                simpleExp: "Far Flew Faster FURTHER",
-                uploadDate: "2020.04.26",
-                verifingAtt: "",
-                id: "696 / Free Copy",
-                long: "1분 04초",
-                highest: "10",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
             legacyKey: 3
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-                {
-                    user: "bongus",
-                    link: "https://www.youtube.com/watch?v=6Ubv9BMCg7Q",
-                    percent: 100
-                },
-            ],
-            name: "After On Track",
-            author: "Lebi",
-            mapInfo: {
-                simpleExp: "Back On Track 'After'",
-                uploadDate: "2020.05.13",
-                verifingAtt: "",
-                id: "2391 / Copy 불가",
-                long: "1분 29초",
-                highest: "11",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
-            legacyKey: 2
         },
         /*=================================================================================*/
         {
