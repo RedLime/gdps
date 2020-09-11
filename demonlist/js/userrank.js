@@ -87,7 +87,7 @@ function getPoint(rank, hz) {
   if (rank > 20) {
     return 0;
   } else {
-    return roundNumber((15/Math.sqrt(rank+2))-0.607, 3);
+    return roundNumber((15/Math.sqrt(rank+1))-0.607, 3);
   }
 }
 
