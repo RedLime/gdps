@@ -234,12 +234,6 @@ function load(num) {
         }
 
         $("#point").html(`<center><strong>Demonlist User Points (100%)</strong><br>${getPoint(num, null)} UP</center><br>`);
-        if (num < 51) {
-            $("#cutline").show();
-            $("#cutline-percent").html(`<strong>${entry.percentToQualify}</strong>`);
-        } else {
-            $("#cutline").hide();
-        }
 
         $("#info-record-table").html("");
         var beat = 0;
