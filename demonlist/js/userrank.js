@@ -84,10 +84,10 @@ function getPoint(rank, hz) {
           hzpoint = 1.5;
       }
   }
-  if (rank > 10) {
+  if (rank > 20) {
     return 0;
   } else {
-    return roundNumber(10/Math.sqrt(rank), 3);
+    return roundNumber((15/Math.sqrt(rank+2))-0.607, 3);
   }
 }
 
