@@ -432,12 +432,6 @@ const d = {
                     link: "https://www.youtube.com/watch?v=YS1tDBuVe9w",
                     percent: 100
                 },
-                {
-                    user: "Usung",
-                    link: "https://www.youtube.com/watch?v=J35QqVU4NvI",
-                    percent: 66,
-                    hz: "Mobile"
-                },
             ],
             name: "Further",
             author: "miini03",
@@ -456,6 +450,30 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "BigChungus556",
+                    link: "https://www.youtube.com/watch?v=TTi25h1e5J4",
+                    percent: 100,
+                    hz: "Mobile"
+                },
+                {
+                    user: "nightmare2",
+                    link: "https://www.youtube.com/watch?v=R4wIeDrNcHU",
+                    percent: 100,
+                    hz: "240hz"
+                },
+                {
+                    user: "LinedriveGD",
+                    link: "https://www.youtube.com/watch?v=eor0ZicMaxw",
+                    percent: 100,
+                    hz: "75hz"
+                },
+                {
+                    user: "동팔군",
+                    link: "https://www.youtube.com/watch?v=zFrQTZsoxOg",
+                    percent: 100,
+                    hz: "240hz"
+                },
             ],
             name: "The last world",
             author: "Specker",
@@ -497,6 +515,23 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "Blancookie",
+                    link: "https://www.youtube.com/watch?v=KdYPzgx8wRQ",
+                    percent: 100
+                },
+                {
+                    user: "XkIeL",
+                    link: "https://www.youtube.com/watch?v=12mdhdxM15c",
+                    percent: 100,
+                    hz: "165hz"
+                },
+                {
+                    user: "BigChungus556",
+                    link: "https://www.youtube.com/watch?v=CnKSHpieeJY",
+                    percent: 100,
+                    hz: "Mobile"
+                },
             ],
             name: "lequiem",
             author: "MiiNi03",
