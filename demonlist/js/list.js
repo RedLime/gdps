@@ -159,6 +159,12 @@ const d = {
                     link: "https://www.youtube.com/watch?v=KTfWC7WzooU",
                     percent: 100
                 },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=GvziLkywuPw",
+                    percent: 100,
+                    hz: "120hz"
+                },
             ],
             name: "Duplication",
             author: "Blancookie",
@@ -171,12 +177,18 @@ const d = {
                 highest: "4",
                 more: "",
             },
-            verificationVid: "https://www.youtube.com/watch?v=v9zI0kJNOTY",
+            verificationVid: "https://www.youtube.com/watch?v=wfu6xEgskhw",
             key: 5
         },
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "LinedriveGD",
+                    link: "https://www.youtube.com/watch?v=KTfWC7WzooU",
+                    percent: 100,
+                    hz: "75hz"
+                },
             ],
             name: "Furthest",
             author: "miini03 [ddddr]",
@@ -246,6 +258,12 @@ const d = {
                     percent: 100,
                     hz: "165hz"
                 },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=IUi8E4FoV9c",
+                    percent: 100,
+                    hz: "165hz"
+                },
             ],
             name: "nautilus",
             author: "Revitin",
@@ -274,6 +292,12 @@ const d = {
                     link: "https://www.youtube.com/watch?v=dZQL5WF5Hv4",
                     percent: 100
                 },
+                {
+                    user: "XkIeL",
+                    link: "https://www.youtube.com/watch?v=nw7aCKlVla4",
+                    percent: 100,
+                    hz: "165hz"
+                },
             ],
             name: "sunset",
             author: "YoungUng2",
@@ -292,6 +316,12 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=RW6num1PHC0",
+                    percent: 100,
+                    hz: "120hz"
+                },
             ],
             name: "Joker",
             author: "YoungUng2",
@@ -393,6 +423,12 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=IUi8E4FoV9c",
+                    percent: 100,
+                    hz: "165hz"
+                },
             ],
             name: "violence",
             author: "Ari1479",
@@ -431,6 +467,18 @@ const d = {
                     user: "Lebi",
                     link: "https://www.youtube.com/watch?v=YS1tDBuVe9w",
                     percent: 100
+                },
+                {
+                    user: "BlueskyGD",
+                    link: "https://www.youtube.com/watch?v=p4RoNCf5y04",
+                    percent: 100,
+                    hz: "100hz"
+                },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=IUi8E4FoV9c",
+                    percent: 100,
+                    hz: "165hz"
                 },
             ],
             name: "Further",
@@ -473,6 +521,12 @@ const d = {
                     link: "https://www.youtube.com/watch?v=zFrQTZsoxOg",
                     percent: 100,
                     hz: "240hz"
+                },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=eg1pSCh_XUo",
+                    percent: 100,
+                    hz: "120hz"
                 },
             ],
             name: "The last world",
