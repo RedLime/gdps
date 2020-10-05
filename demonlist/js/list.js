@@ -647,7 +647,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=m859W71SDlk",
-            legacyKey: 3
+            legacyKey: 4
         },
         /*=================================================================================*/
         {
