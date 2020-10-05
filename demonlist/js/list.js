@@ -96,6 +96,12 @@ const d = {
                     percent: 100,
                     hz: "120hz"
                 },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=1udjX4ej-7k",
+                    percent: 100,
+                    hz: "165hz"
+                },
             ],
             name: "Sandstorm",
             author: "YoungUng2",
@@ -177,32 +183,8 @@ const d = {
                 highest: "4",
                 more: "",
             },
-            verificationVid: "https://www.youtube.com/watch?v=wfu6xEgskhw",
+            verificationVid: "https://www.youtube.com/watch?v=v9zI0kJNOTY",
             key: 5
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-                {
-                    user: "LinedriveGD",
-                    link: "https://www.youtube.com/watch?v=KTfWC7WzooU",
-                    percent: 100,
-                    hz: "75hz"
-                },
-            ],
-            name: "Furthest",
-            author: "miini03 [ddddr]",
-            mapInfo: {
-                simpleExp: "Far Flew Faster Further Furthest / Verified by ddddr",
-                uploadDate: "2020.08.27",
-                verifingAtt: "-",
-                id: "8457 / Free copy",
-                long: "1m 17s",
-                highest: "7",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=wrD0UuupH1U",
-            key: 6
         },
         /*=================================================================================*/
         {
@@ -228,6 +210,12 @@ const d = {
                     link: "https://www.youtube.com/watch?v=TKERGcBadjI",
                     percent: 100
                 },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=Y3A6Y5DY0eg",
+                    percent: 100,
+                    hz: "165hz"
+                },
             ],
             name: "Black Storm",
             author: "RedLimeGD",
@@ -241,6 +229,42 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=sDQagQmo3j0",
+            key: 6
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "LinedriveGD",
+                    link: "https://www.youtube.com/watch?v=KTfWC7WzooU",
+                    percent: 100,
+                    hz: "75hz"
+                },
+                {
+                    user: "Blancookie",
+                    link: "https://www.youtube.com/watch?v=uMEBnqxLAvA",
+                    percent: 100,
+                    hz: "144hz"
+                },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=ZHEs8UYAFXg",
+                    percent: 100,
+                    hz: "165hz"
+                },
+            ],
+            name: "Furthest",
+            author: "miini03 [ddddr]",
+            mapInfo: {
+                simpleExp: "Far Flew Faster Further Furthest / Verified by ddddr",
+                uploadDate: "2020.08.27",
+                verifingAtt: "-",
+                id: "8457 / Free copy",
+                long: "1m 17s",
+                highest: "7",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=wrD0UuupH1U",
             key: 7
         },
         /*=================================================================================*/
@@ -368,6 +392,12 @@ const d = {
                     link: "https://www.youtube.com/watch?v=-Hc8RaamYAQ",
                     percent: 100,
                     hz: "120hz"
+                },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=HXhRRbJO8Pk",
+                    percent: 100,
+                    hz: "165hz"
                 },
             ],
             name: "inner demons",
@@ -546,6 +576,24 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+            ],
+            name: "Infertehno",
+            author: "IgongDae",
+            mapInfo: {
+                simpleExp: "My New GDPS Level :)",
+                uploadDate: "2020.09.11",
+                verifingAtt: "695",
+                id: "23920791 / Free Copy",
+                long: "1m 11s",
+                highest: "19",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=gIxo27Yb_Cw",
+            key: 18
+        },
+        /*=================================================================================*/
+        {
+            vids: [
                 {
                     user: "bongus",
                     link: "https://www.youtube.com/watch?v=6Ubv9BMCg7Q",
@@ -564,7 +612,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
-            key: 18
+            key: 20
         },
         /*=================================================================================*/
         {
@@ -599,7 +647,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=m859W71SDlk",
-            key: 19
+            legacyKey: 3
         },
         /*=================================================================================*/
         {
