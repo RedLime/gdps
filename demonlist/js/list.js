@@ -234,6 +234,24 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+            ],
+            name: "Dead silence",
+            author: "Blancookie",
+            mapInfo: {
+                simpleExp: "Special Thanks : Xkiel",
+                uploadDate: "2020.09.25",
+                verifingAtt: "-",
+                id: "9709 / Free copy",
+                long: "1m 0s",
+                highest: "8",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=t9SiKCVADbM",
+            key: 7
+        },
+        /*=================================================================================*/
+        {
+            vids: [
                 {
                     user: "LinedriveGD",
                     link: "https://www.youtube.com/watch?v=KTfWC7WzooU",
@@ -265,7 +283,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=wrD0UuupH1U",
-            key: 7
+            key: 8
         },
         /*=================================================================================*/
         {
@@ -301,7 +319,7 @@ const d = {
                 more: "",
             },
             verificationVid: "",//베파 영상 없음
-            key: 8
+            key: 9
         },
         /*=================================================================================*/
         {
@@ -335,7 +353,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=G4_q-OUDp1E",
-            key: 9
+            key: 10
         },
         /*=================================================================================*/
         {
@@ -359,7 +377,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=Co8hQKrx-0Y",
-            key: 10
+            key: 11
         },
         /*=================================================================================*/
         {
@@ -377,7 +395,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=WBfsPa8nBo8",
-            key: 11
+            key: 12
         },
         /*=================================================================================*/
         {
@@ -412,7 +430,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
-            key: 12
+            key: 13
         },
         /*=================================================================================*/
         {
@@ -430,7 +448,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=krTYYwsBDp4",
-            key: 13
+            key: 14
         },
         /*=================================================================================*/
         {
@@ -448,7 +466,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=PiFz_uhrKp4",
-            key: 14
+            key: 15
         },
         /*=================================================================================*/
         {
@@ -472,7 +490,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=npuvo4uwFYU",
-            key: 15
+            key: 16
         },
         /*=================================================================================*/
         {
@@ -523,7 +541,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
-            key: 16
+            key: 17
         },
         /*=================================================================================*/
         {
@@ -571,11 +589,29 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=YzyICozkUFs",
-            key: 17
+            key: 18
         },
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "BigChungus556",
+                    link: "https://www.youtube.com/watch?v=v0HqJoNWt48",
+                    percent: 100,
+                    hz: "Mobile"
+                },
+                {
+                    user: "kirbylove9",
+                    link: "https://www.youtube.com/watch?v=F4k5MaVzsrQ",
+                    percent: 100,
+                    hz: "Mobile"
+                },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=yMQw2XGBt7w",
+                    percent: 100,
+                    hz: "165hz"
+                },
             ],
             name: "Infertehno",
             author: "IgongDae",
@@ -589,7 +625,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=gIxo27Yb_Cw",
-            key: 18
+            key: 19
         },
         /*=================================================================================*/
         {
@@ -612,7 +648,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=_M6-7ImVDYQ",
-            key: 20
+            legacyKey: 5
         },
         /*=================================================================================*/
         {
