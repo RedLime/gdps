@@ -123,7 +123,7 @@ const d = {
             vids: [
             ],
             name: "Maxwell",
-            author: "Lebi06 [Lebi06]",
+            author: "Lebi06 and more [Lebi06]",
             mapInfo: {
                 simpleExp: "Good bye GDPS :3",
                 uploadDate: "2020.10.15",

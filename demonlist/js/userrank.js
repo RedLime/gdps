@@ -72,7 +72,7 @@ function getPoint(rank, hz) {
   var hzpoint = 0.0;
   if (hz == null) {
       hzpoint = 1;
-  } else if (hz=="Mobile") {
+  } else if (hz=="Mobile" || hz=="mobile") {
       hzpoint = 2.0;
   } else {
       var hzInt = hz.replace(/[^0-9]/g,'');
