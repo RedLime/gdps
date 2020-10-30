@@ -27,6 +27,41 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+            ],
+            name: "o0",
+            author: "YoungUng2",
+            mapInfo: {
+                simpleExp: "Worst Epic..(o - Alphabet, 0 - Zero)",
+                uploadDate: "2020.10.24",
+                verifingAtt: "6000",
+                id: "6640 / 201024",
+                long: "2m 52s",
+                highest: "2",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=aSR0Z2JKoEg",
+            key: 1
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
+            name: "Delta outerface",
+            author: "YoungUng2",
+            mapInfo: {
+                simpleExp: "Super Ultra Hyper Epic And Nong :(",
+                uploadDate: "2020.05.01",
+                verifingAtt: "",
+                id: "1323 / 696969",
+                long: "2m 1s",
+                highest: "1",
+                more: "",
+            },            verificationVid: "https://www.youtube.com/watch?v=12jEX10STuA",
+            key: 2
+        },
+        /*=================================================================================*/
+        {
+            vids: [
                 {
                     user: "Youngung2",
                     link: "https://www.youtube.com/watch?v=KoRwBPT4Pms",
@@ -46,30 +81,60 @@ const d = {
                 simpleExp: "Renevant : made in china",
                 uploadDate: "2020.05.13",
                 verifingAtt: "",
-                id: "2444 / Copy 불가",
+                id: "2444 / Copy unavailable",
                 long: "1m 48s",
                 highest: "1",
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=1nmFQGMf0f4",
-            key: 1
+            key: 3
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "Lebi",
+                    link: "https://www.youtube.com/watch?v=kMCIm5e5qYE",
+                    percent: 100
+                },
+                {
+                    user: "GDTIME",
+                    link: "https://www.youtube.com/watch?v=LTU-8v5E8Wg",
+                    percent: 100,
+                    hz: "120hz"
+                },
+            ],
+            name: "black",
+            author: "Esencia [TheRealMap]",
+            mapInfo: {
+                simpleExp: "my last color series level! next series level named \"valley\" enjoy! :)",
+                uploadDate: "2020.05.02",
+                verifingAtt: "",
+                id: "1416 / 101010",
+                long: "1m 2s",
+                highest: "4",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=shzzEMUeKL8",//베파 영상 없음
+            key: 4
         },
         /*=================================================================================*/
         {
             vids: [
             ],
-            name: "Delta outerface",
-            author: "YoungUng2",
+            name: "Maxwell",
+            author: "Lebi06 [Lebi06]",
             mapInfo: {
-                simpleExp: "Super Ultra Hyper Epic And Nong :(",
-                uploadDate: "2020.05.01",
+                simpleExp: "Good bye GDPS :3",
+                uploadDate: "2020.10.15",
                 verifingAtt: "",
-                id: "1323 / 696969",
-                long: "2m 1s",
-                highest: "1",
-                more: "",
-            },            verificationVid: "https://www.youtube.com/watch?v=12jEX10STuA",
-            key: 2
+                id: "10523 / Free Copy",
+                long: "2m 0s",
+                highest: "4",
+                more: "K9llunA, Lovelty, Gyro, L4chet, ItzWhite, Usung, GreeneryTea, SktLife, Estachi, Lebi, RedLime, SexyOri, ItzFX",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=4wKRUcVDgEU",//베파 영상 없음
+            key: 5
         },
         /*=================================================================================*/
         {
@@ -115,36 +180,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=puEA266G04A",
-            key: 3
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-                {
-                    user: "Lebi",
-                    link: "https://www.youtube.com/watch?v=kMCIm5e5qYE",
-                    percent: 100
-                },
-                {
-                    user: "GDTIME",
-                    link: "https://www.youtube.com/watch?v=LTU-8v5E8Wg",
-                    percent: 100,
-                    hz: "120hz"
-                },
-            ],
-            name: "black",
-            author: "Esencia [TheRealMap]",
-            mapInfo: {
-                simpleExp: "my last color series level! next series level named \"valley\" enjoy! :)",
-                uploadDate: "2020.05.02",
-                verifingAtt: "",
-                id: "1416 / 101010",
-                long: "1m 2s",
-                highest: "4",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=shzzEMUeKL8",//베파 영상 없음
-            key: 4
+            key: 6
         },
         /*=================================================================================*/
         {
@@ -184,7 +220,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=v9zI0kJNOTY",
-            key: 5
+            key: 7
         },
         /*=================================================================================*/
         {
@@ -229,11 +265,23 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=sDQagQmo3j0",
-            key: 6
+            key: 8
         },
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "BHisGOD",
+                    link: "https://www.youtube.com/watch?v=A5Y5IQRjxsI",
+                    percent: 100,
+                    hz: "240hz"
+                },
+                {
+                    user: "TrusionGMD",
+                    link: "https://www.youtube.com/watch?v=6-vhD5hUk1Y",
+                    percent: 100,
+                    hz: "240hz Bypass"
+                },
             ],
             name: "Dead silence",
             author: "Blancookie",
@@ -247,7 +295,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=t9SiKCVADbM",
-            key: 7
+            key: 9
         },
         /*=================================================================================*/
         {
@@ -283,7 +331,65 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=wrD0UuupH1U",
-            key: 8
+            key: 10
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=RW6num1PHC0",
+                    percent: 100,
+                    hz: "120hz"
+                },
+            ],
+            name: "Joker",
+            author: "YoungUng2",
+            mapInfo: {
+                simpleExp: "JJamBBongEpic",
+                uploadDate: "2020.07.23",
+                verifingAtt: "3469",
+                id: "6760 / 200723",
+                long: "1m 31s",
+                highest: "9",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=Co8hQKrx-0Y",
+            key: 11
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "ddddr",
+                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=342s",
+                    percent: 100
+                },
+                {
+                    user: "Blancookie",
+                    link: "https://www.youtube.com/watch?v=dZQL5WF5Hv4",
+                    percent: 100
+                },
+                {
+                    user: "XkIeL",
+                    link: "https://www.youtube.com/watch?v=nw7aCKlVla4",
+                    percent: 100,
+                    hz: "165hz"
+                },
+            ],
+            name: "sunset",
+            author: "YoungUng2",
+            mapInfo: {
+                simpleExp: "Ultra Epic Update Update Nerf Update",
+                uploadDate: "2020.04.24",
+                verifingAtt: "",
+                id: "259 / 585858",
+                long: "1m 1s",
+                highest: "7",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=G4_q-OUDp1E",
+            key: 12
         },
         /*=================================================================================*/
         {
@@ -319,65 +425,25 @@ const d = {
                 more: "",
             },
             verificationVid: "",//베파 영상 없음
-            key: 9
+            key: 13
         },
         /*=================================================================================*/
         {
             vids: [
-                {
-                    user: "ddddr",
-                    link: "https://www.youtube.com/watch?v=sklVExHo6Wk&t=342s",
-                    percent: 100
-                },
-                {
-                    user: "Blancookie",
-                    link: "https://www.youtube.com/watch?v=dZQL5WF5Hv4",
-                    percent: 100
-                },
-                {
-                    user: "XkIeL",
-                    link: "https://www.youtube.com/watch?v=nw7aCKlVla4",
-                    percent: 100,
-                    hz: "165hz"
-                },
             ],
-            name: "sunset",
-            author: "YoungUng2",
+            name: "Regret",
+            author: "BHisGOD",
             mapInfo: {
-                simpleExp: "Ultra Epic Update Update Nerf Update",
-                uploadDate: "2020.04.24",
-                verifingAtt: "",
-                id: "259 / 585858",
-                long: "1m 1s",
-                highest: "7",
+                simpleExp: "easy demon",
+                uploadDate: "2020.10.24",
+                verifingAtt: "-",
+                id: "10694 / Copy unavailable",
+                long: "1m 2s",
+                highest: "15",
                 more: "",
             },
-            verificationVid: "https://www.youtube.com/watch?v=G4_q-OUDp1E",
-            key: 10
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-                {
-                    user: "상천",
-                    link: "https://www.youtube.com/watch?v=RW6num1PHC0",
-                    percent: 100,
-                    hz: "120hz"
-                },
-            ],
-            name: "Joker",
-            author: "YoungUng2",
-            mapInfo: {
-                simpleExp: "JJamBBongEpic",
-                uploadDate: "2020.07.23",
-                verifingAtt: "3469",
-                id: "6760 / 200723",
-                long: "1m 31s",
-                highest: "9",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=Co8hQKrx-0Y",
-            key: 11
+            verificationVid: "https://www.youtube.com/watch?v=koxmIMh324A",
+            key: 14
         },
         /*=================================================================================*/
         {
@@ -389,48 +455,31 @@ const d = {
                 simpleExp: "Stereo Madness 'After'",
                 uploadDate: "2020.05.11",
                 verifingAtt: "",
-                id: "2249 / Copy 불가",
+                id: "2249 / Copy unavailable",
                 long: "2m 05s",
                 highest: "8",
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=WBfsPa8nBo8",
-            key: 12
+            key: 15
         },
         /*=================================================================================*/
         {
             vids: [
-                {
-                    user: "Lebi",
-                    link: "https://www.youtube.com/watch?v=19EBVeDo9KM",
-                    percent: 100
-                },
-                {
-                    user: "GDTIME",
-                    link: "https://www.youtube.com/watch?v=-Hc8RaamYAQ",
-                    percent: 100,
-                    hz: "120hz"
-                },
-                {
-                    user: "상천",
-                    link: "https://www.youtube.com/watch?v=HXhRRbJO8Pk",
-                    percent: 100,
-                    hz: "165hz"
-                },
             ],
-            name: "inner demons",
-            author: "Cubic",
+            name: "Super Nodab Level II",
+            author: "IgongDae",
             mapInfo: {
-                simpleExp: "My first XL level, Good luck! / 18k objects",
-                uploadDate: "2020.05.20",
+                simpleExp: "Really Nodab Level II",
+                uploadDate: "2020.10.03",
                 verifingAtt: "",
-                id: "2940 / 006843",
-                long: "2m 22s",
-                highest: "9",
+                id: "10097 / 314159",
+                long: "50s",
+                highest: "17",
                 more: "",
             },
-            verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
-            key: 13
+            verificationVid: "https://www.youtube.com/watch?v=a1JHA3vExEM",
+            key: 16
         },
         /*=================================================================================*/
         {
@@ -442,31 +491,13 @@ const d = {
                 simpleExp: "Polargeist 'After'",
                 uploadDate: "2020.05.20",
                 verifingAtt: "",
-                id: "2924 / Copy 불가",
+                id: "2924 / Copy unavailable",
                 long: "1m 52s",
                 highest: "10",
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=krTYYwsBDp4",
-            key: 14
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-            ],
-            name: "After Out",
-            author: "Lebi",
-            mapInfo: {
-                simpleExp: "Dry Out 'After'",
-                uploadDate: "2020.06.20",
-                verifingAtt: "",
-                id: "5072 / Copy 불가",
-                long: "1m 9s",
-                highest: "12",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=PiFz_uhrKp4",
-            key: 15
+            key: 17
         },
         /*=================================================================================*/
         {
@@ -490,7 +521,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=npuvo4uwFYU",
-            key: 16
+            key: 18
         },
         /*=================================================================================*/
         {
@@ -541,7 +572,60 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=t2LCi-XjXv0",
-            key: 17
+            key: 19
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+                {
+                    user: "Lebi",
+                    link: "https://www.youtube.com/watch?v=19EBVeDo9KM",
+                    percent: 100
+                },
+                {
+                    user: "GDTIME",
+                    link: "https://www.youtube.com/watch?v=-Hc8RaamYAQ",
+                    percent: 100,
+                    hz: "120hz"
+                },
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=HXhRRbJO8Pk",
+                    percent: 100,
+                    hz: "165hz"
+                },
+            ],
+            name: "inner demons",
+            author: "Cubic",
+            mapInfo: {
+                simpleExp: "My first XL level, Good luck! / 18k objects",
+                uploadDate: "2020.05.20",
+                verifingAtt: "",
+                id: "2940 / 006843",
+                long: "2m 22s",
+                highest: "9",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=rz9SR6IIGG8",
+            legacyKey: 9
+        },
+        /*=================================================================================*/
+        {
+            vids: [
+            ],
+            name: "After Out",
+            author: "Lebi",
+            mapInfo: {
+                simpleExp: "Dry Out 'After'",
+                uploadDate: "2020.06.20",
+                verifingAtt: "",
+                id: "5072 / Copy unavailable",
+                long: "1m 9s",
+                highest: "12",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=PiFz_uhrKp4",
+            legacyKey: 8
         },
         /*=================================================================================*/
         {
@@ -589,7 +673,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=YzyICozkUFs",
-            key: 18
+            legacyKey: 7
         },
         /*=================================================================================*/
         {
@@ -612,6 +696,12 @@ const d = {
                     percent: 100,
                     hz: "165hz"
                 },
+                {
+                    user: "LinedriveGD",
+                    link: "https://www.youtube.com/watch?v=lA62PAHHqLw",
+                    percent: 100,
+                    hz: "75hz"
+                },
             ],
             name: "Infertehno",
             author: "IgongDae",
@@ -625,7 +715,7 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=gIxo27Yb_Cw",
-            key: 19
+            legacyKey: 6
         },
         /*=================================================================================*/
         {
@@ -642,7 +732,7 @@ const d = {
                 simpleExp: "Back On Track 'After'",
                 uploadDate: "2020.05.13",
                 verifingAtt: "",
-                id: "2391 / Copy 불가",
+                id: "2391 / Copy unavailable",
                 long: "1m 29s",
                 highest: "11",
                 more: "",
@@ -763,7 +853,7 @@ const d = {
                 simpleExp: "HARDER THEN MARTINI",
                 uploadDate: "2020.06.15",
                 verifingAtt: "",
-                id: "4755 / Copy 불가",
+                id: "4755 / Copy unavailable",
                 long: "1m 1s",
                 highest: "15",
                 more: "",
