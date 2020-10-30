@@ -34,7 +34,7 @@ const d = {
                 simpleExp: "Worst Epic..(o - Alphabet, 0 - Zero)",
                 uploadDate: "2020.10.24",
                 verifingAtt: "6000",
-                id: "6640 / 201024",
+                id: "10696 / 201024",
                 long: "2m 52s",
                 highest: "2",
                 more: "",
