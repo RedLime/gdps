@@ -3,6 +3,24 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+            ],
+            name: "o0",
+            author: "YoungUng2",
+            mapInfo: {
+                simpleExp: "Worst Epic..(o - Alphabet, 0 - Zero)",
+                uploadDate: "2020.10.24",
+                verifingAtt: "6000",
+                id: "10696 / 201024",
+                long: "2m 52s",
+                highest: "1",
+                more: "",
+            },
+            verificationVid: "https://www.youtube.com/watch?v=aSR0Z2JKoEg",
+            key: 0
+        },
+        /*=================================================================================*/
+        {
+            vids: [
                 {
                     user: "Sparky",
                     link: "https://www.youtube.com/watch?v=S36dlFZYBx0",
@@ -22,24 +40,6 @@ const d = {
                 more: "",
             },
             verificationVid: "https://www.youtube.com/watch?v=T2_CiOz6Tw0",
-            key: 0
-        },
-        /*=================================================================================*/
-        {
-            vids: [
-            ],
-            name: "o0",
-            author: "YoungUng2",
-            mapInfo: {
-                simpleExp: "Worst Epic..(o - Alphabet, 0 - Zero)",
-                uploadDate: "2020.10.24",
-                verifingAtt: "6000",
-                id: "10696 / 201024",
-                long: "2m 52s",
-                highest: "2",
-                more: "",
-            },
-            verificationVid: "https://www.youtube.com/watch?v=aSR0Z2JKoEg",
             key: 1
         },
         /*=================================================================================*/
@@ -121,6 +121,12 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "상천",
+                    link: "https://www.youtube.com/watch?v=GHl8s2HiCKA",
+                    percent: 100,
+                    hz: "165hz"
+                },
             ],
             name: "Maxwell",
             author: "Lebi06 and more [Lebi06]",
@@ -282,6 +288,12 @@ const d = {
                     percent: 100,
                     hz: "240hz Bypass"
                 },
+                {
+                    user: "XkIeL",
+                    link: "https://www.youtube.com/watch?v=0G5BfUA511o",
+                    percent: 100,
+                    hz: "165hz"
+                },
             ],
             name: "Dead silence",
             author: "Blancookie",
@@ -432,7 +444,7 @@ const d = {
             vids: [
             ],
             name: "Regret",
-            author: "BHisGOD",
+            author: "BHisGOD [XkIeL]",
             mapInfo: {
                 simpleExp: "easy demon",
                 uploadDate: "2020.10.24",
@@ -442,7 +454,7 @@ const d = {
                 highest: "15",
                 more: "",
             },
-            verificationVid: "https://www.youtube.com/watch?v=koxmIMh324A",
+            verificationVid: "https://www.youtube.com/watch?v=XJLCC7DkaDw",
             key: 14
         },
         /*=================================================================================*/
@@ -466,6 +478,12 @@ const d = {
         /*=================================================================================*/
         {
             vids: [
+                {
+                    user: "PotyAGayMan",
+                    link: "https://www.youtube.com/watch?v=sGEa6l1VXGI",
+                    percent: 100,
+                    hz: "144hz"
+                },
             ],
             name: "Super Nodab Level II",
             author: "IgongDae",
