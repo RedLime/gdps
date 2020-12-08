@@ -526,6 +526,12 @@ const d = {
                     percent: 100,
                     hz: "165hz"
                 },
+                {
+                    user: "AstatineGMD",
+                    link: "https://www.youtube.com/watch?v=0mNtevJGXKU",
+                    percent: 100,
+                    hz: "144hz"
+                },
             ],
             name: "violence",
             author: "Ari1479",
